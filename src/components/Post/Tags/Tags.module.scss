@@ -2,36 +2,35 @@
 @import '../../../assets/scss/mixins';
 
 .tags {
-  @include margin-bottom(.5);
+  @include margin-bottom(0.5);
 
   &__list {
     list-style: none;
-    margin: 0 -10px;
+    margin: 0 -5px;
     padding: 0;
 
     &-item {
       display: inline-block;
-      margin: 10px 5px;
+      margin: 5px 0;
+      text-transform: lowercase;
 
       &-link {
         display: inline-block;
-        height: $button-height;
-        padding: 0 24px;
-        line-height: $button-height;
-        border: 1px solid $color-gray-border;
+        padding: 0 5px;
+        background: $color-secondary;
         text-decoration: none;
-        border-radius: $button-border-radius;
         color: $color-base;
 
         &:hover,
         &:focus {
-          color: $color-primary;
+          color: white;
+          background: $color-primary;
         }
 
+        &:before {
+          content: '#';
+        }
       }
-
     }
-
   }
-
 }

@@ -10,7 +10,7 @@
     text-align: left;
 
     &-link {
-      color: $color-secondary;
+      color: $color-primary;
       font-size: 26px;
       font-weight: bold;
 
@@ -23,9 +23,7 @@
         pointer-events: none;
         color: lighten($color-gray, 20%);
       }
-
     }
-
   }
 
   &__next {
@@ -33,7 +31,7 @@
     text-align: right;
 
     &-link {
-      color: $color-secondary;
+      color: $color-primary;
       font-size: 26px;
       font-weight: bold;
 
@@ -46,9 +44,6 @@
         pointer-events: none;
         color: lighten($color-gray, 20%);
       }
-
     }
-
   }
-
 }
