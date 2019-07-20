@@ -26,7 +26,7 @@ const Feed = ({ edges }: Props) => (
               </span>
               <span className={styles['feed__item-meta-divider']} />
               <span className={styles['feed__item-meta-duration']}>
-                ☕ {Math.ceil(edge.node.wordCount.words / 120)} min read
+                ☕ {Math.ceil(edge.node.wordCount.words / 200)} min read
               </span>
             </>
           )}
