@@ -14,19 +14,22 @@ const Feed = ({ edges }: Props) => (
     {edges.map((edge) => (
       <div className={styles['feed__item']} key={edge.node.fields.slug}>
         <div className={styles['feed__item-meta']}>
-          <span className={styles['feed__item-meta-category']}>
-            <Link
-              to={edge.node.fields.categorySlug}
-              className={styles['feed__item-meta-category-link']}
-            >
-              {edge.node.frontmatter.category}
-            </Link>
-          </span>
-          <span className={styles['feed__item-meta-divider']} />
-          <span className={styles['feed__item-meta-duration']}>
-            ☕ {Math.ceil(edge.node.wordCount.words / 150)} min read
-          </span>
-          <span className={styles['feed__item-meta-divider']} />
+          {!!edge.node.frontmatter.category && (
+            <>
+              <span className={styles['feed__item-meta-category']}>
+                <Link
+                  to={edge.node.fields.categorySlug}
+                  className={styles['feed__item-meta-category-link']}
+                >
+                  {edge.node.frontmatter.category}
+                </Link>
+              </span>
+              <span className={styles['feed__item-meta-divider']} />
+              <span className={styles['feed__item-meta-duration']}>
+                ☕ {Math.ceil(edge.node.wordCount.words / 120)} min read
+              </span>
+            </>
+          )}
         </div>
         <h2 className={styles['feed__item-title']}>
           <Link
@@ -38,6 +41,13 @@ const Feed = ({ edges }: Props) => (
         </h2>
         <p className={styles['feed__item-description']}>
           {edge.node.frontmatter.description}{' '}
+          <Link
+            className={styles['feed__item-readmore']}
+            to={edge.node.fields.slug}
+          >
+            Read →
+          </Link>
+          <br />
           <time
             className={styles['feed__item-meta-time']}
             dateTime={moment(edge.node.frontmatter.date).format('MMMM D, YYYY')}
@@ -45,12 +55,6 @@ const Feed = ({ edges }: Props) => (
             {moment(edge.node.frontmatter.date).format('MMMM D, YYYY')}
           </time>
         </p>
-        <Link
-          className={styles['feed__item-readmore']}
-          to={edge.node.fields.slug}
-        >
-          Read →
-        </Link>
       </div>
     ))}
   </div>
