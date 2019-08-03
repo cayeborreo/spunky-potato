@@ -34,19 +34,16 @@
       @include margin-bottom(0.25);
       @include margin-top(0.25);
 
-      &-time {
+      &-time,
+      &-duration {
         display: inline-block;
         font-size: $typographic-small-font-size;
         color: $color-gray;
-        font-style: italic;
-        // margin-left: 0.25rem;
         @include margin-top(0.25);
-        // text-transform: uppercase;
       }
 
       &-duration {
-        font-size: $typographic-small-font-size;
-        color: $color-base;
+        margin-left: 0.75rem;
       }
 
       &-divider {

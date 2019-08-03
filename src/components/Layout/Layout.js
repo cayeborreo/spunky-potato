@@ -6,7 +6,7 @@ import styles from './Layout.module.scss';
 
 if (typeof window !== 'undefined') {
   // Make scroll behavior of internal links smooth
-  require('smooth-scroll')('a[href*="#"]', { speed: 150 });
+  require('smooth-scroll')('a[href*="#"]', { speed: 250 });
 }
 
 type Props = {
