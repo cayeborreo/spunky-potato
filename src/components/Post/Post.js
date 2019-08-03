@@ -6,6 +6,7 @@ import Comments from './Comments';
 import Content from './Content';
 import Meta from './Meta';
 import Tags from './Tags';
+import Scroll from '../Scroll';
 import Copyright from '../Sidebar/Copyright/Copyright';
 import styles from './Post.module.scss';
 import { useSiteMetadata } from '../../hooks';
@@ -34,6 +35,7 @@ const Post = ({ post }: Props) => {
       <div className={styles['post__footer']}>
         {/* <Meta date={date} /> */}
         {tags && tagSlugs && <Tags tags={tags} tagSlugs={tagSlugs} />}
+        <Scroll />
         <Author />
       </div>
 
@@ -41,7 +43,7 @@ const Post = ({ post }: Props) => {
         <Comments postSlug={slug} postTitle={post.frontmatter.title} />
       </div>
 
-      <Copyright copyright={copyright} />
+      {/* <Copyright copyright={copyright} /> */}
     </div>
   );
 };

@@ -3,6 +3,7 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
 import Sidebar from '../components/Sidebar';
+import Scroll from '../components/Scroll';
 import Page from '../components/Page';
 import { useSiteMetadata } from '../hooks';
 import type { MarkdownRemark } from '../types';
@@ -16,14 +17,18 @@ type Props = {
 const PageTemplate = ({ data }: Props) => {
   const { title: siteTitle, subtitle: siteSubtitle } = useSiteMetadata();
   const { html: pageBody } = data.markdownRemark;
-  const { title: pageTitle, description: pageDescription } = data.markdownRemark.frontmatter;
-  const metaDescription = pageDescription !== null ? pageDescription : siteSubtitle;
+  const {
+    title: pageTitle,
+    description: pageDescription
+  } = data.markdownRemark.frontmatter;
+  const metaDescription =    pageDescription !== null ? pageDescription : siteSubtitle;
 
   return (
     <Layout title={`${pageTitle} - ${siteTitle}`} description={metaDescription}>
       <Sidebar />
       <Page title={pageTitle}>
         <div dangerouslySetInnerHTML={{ __html: pageBody }} />
+        <Scroll />
       </Page>
     </Layout>
   );
