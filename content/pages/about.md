@@ -3,12 +3,18 @@ title: "About me"
 template: "page"
 ---
 
-**I'm yet to edit this.** Cut me some slack.
+![Hey there! 🌻](/media/about/hi.jpg)
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.
+Hey there. I'm **Caye**, a registered pharmacist and web developer based in Manila. (View my LinkedIn profile [here](https://www.linkedin.com/in/mcborreo/))
 
-![Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.](/media/image-2.jpg)
+There are a lot of things I'm passionate about but you can find health tech in the forefront of them all. There are so many gaps and pain points in the health care system that tech can help solve, and I'm trying to find the bridge between those two.
 
-_Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi._
+I'm also a firm believer of diversity in any movement, advocacy or team ([this podcast](https://www.npr.org/2018/07/02/625426015/the-edge-effect) explains it better than I ever could). [@WomenWhoCodeMNL](https://www.womenwhocode.com/manila) shares this belief, and I'm proud to be part of the community.
 
-Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
+![#DevelopHER2019](/media/about/developher.jpg)
+
+Besides health tech, public health and pharmacy-related stuff, I also love design, UI/UX, travel, beaches and snorkeling and... John Mayer 🤣 This blog will be a mix of all these and whatever I learn along the way.
+
+![Fishiez](/media/2019-07-28/its-a-school!.gif)
+
+So there. Welcome to my little corner in the web. Make yourself at home ☕
