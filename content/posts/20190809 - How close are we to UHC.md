@@ -15,7 +15,7 @@ description: "The road to universal health care is a long and winding one for Ju
 ---
 
 <figure>
-	<img src="/media/2019-08-09/rhu.jpg" alt="A normal day at a Rural Health Unit" />
+	<img src="/media/posts/uhc-where-are-we-really.jpg" alt="A normal day at a Rural Health Unit" />
 	<figcaption>A normal day at a Rural Health Unit (2017)</figcaption>
 </figure>
 

@@ -19,7 +19,12 @@ const PostTemplate = ({ data }: Props) => {
   const metaDescription =    postDescription !== null ? postDescription : siteSubtitle;
 
   return (
-    <Layout title={`${postTitle}`} description={metaDescription}>
+    <Layout
+      title={`${postTitle}`}
+      description={metaDescription}
+      location={location}
+    >
+      <meta name='twitter:image' content={`/media/${location.pathname}.jpg`} />
       <Post post={data.markdownRemark} />
     </Layout>
   );

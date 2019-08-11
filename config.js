@@ -5,7 +5,7 @@ module.exports = {
   pathPrefix: '/',
   title: '<rph />',
   subtitle: 'The Pharmacist Who Codes',
-  copyright: '© 2019 · <rph /> · All rights reserved',
+  copyright: '© 2019 · Caye Borreo · All rights reserved',
   disqusShortname: 'cayeborreo',
   postsPerPage: 7,
   googleAnalyticsId: 'UA-144194562-1',
