@@ -19,7 +19,7 @@ const PostTemplate = ({ data }: Props) => {
   const metaDescription =    postDescription !== null ? postDescription : siteSubtitle;
 
   return (
-    <Layout title={`${siteTitle} - ${postTitle}`} description={metaDescription}>
+    <Layout title={`${postTitle}`} description={metaDescription}>
       <Post post={data.markdownRemark} />
     </Layout>
   );
@@ -39,9 +39,6 @@ export const query = graphql`
         description
         tags
         title
-      }
-      wordCount {
-        words
       }
     }
   }

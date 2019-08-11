@@ -19,11 +19,14 @@ const Layout = ({ children, title, description }: Props) => (
   <div className={styles.layout}>
     <Helmet>
       <html lang='en' />
+
       <title>{title}</title>
       <meta name='description' content={description} />
       <meta property='og:site_name' content={title} />
       <meta name='twitter:card' content='summary' />
+      <meta name='twitter:site' content='&lt;rph />' />
       <meta name='twitter:title' content={title} />
+      <meta name='twitter:creator' content='@mcborreo' />
     </Helmet>
     {children}
   </div>

@@ -1,16 +1,16 @@
 ---
-title: When in Bohol
-date: '2019-07-28T19:10:26.191Z'
-template: 'post'
+title: When In Bohol
+date: "2019-07-28T19:10:26.191Z"
+template: "post"
 draft: false
-slug: '/posts/when-in-bohol'
-category: 'Travel'
+slug: "/posts/when-in-bohol"
+category: "Travel"
 tags:
-  - 'bohol'
-  - 'adventure'
-  - 'first'
-  - 'solo'
-description: 'On my first solo trip, I finally get to see a famous postcard favorite in the flesh (and discover islands with amazing marine life along the way).'
+  - "bohol"
+  - "adventure"
+  - "first"
+  - "solo"
+description: "On my first solo trip, I finally get to see a famous postcard favorite in the flesh (and discover islands with amazing marine life along the way)."
 ---
 
 <figure>
@@ -121,13 +121,14 @@ I submerged my camera and took videos randomly while we were boating towards the
 
 After snorkeling, we headed towards Virgin Island. There was a sandbar, so we took our time exploring the sea creatures that lived there. One conversation went like this:
 
-> **Them:** (points at a creature that does not look like a jellyfish) Look, a jellyfish!
->
-> **Me:** (dumb but amazed) Awww, there are many of them!
->
-> **Them:** They're stingless.
->
-> **Me:** 🤯
+<figure>
+<blockquote>
+<b>Them:</b> (points at a creature that does not look like a jellyfish) Look, a jellyfish!<br />
+<b>Me:</b> (dumb but amazed) Awww, there are many of them!<br />
+<b>Them:</b> They're stingless.<br />
+<b>Me:</b> 🤯<br />
+</blockquote>
+</figure>
 
 <figure>
 <img src="/media/2019-07-28/jewwyfish.gif" alt="Stingless jellyfish" />
@@ -164,7 +165,7 @@ The rest of the trip was me lounging by the house, buying pasalubong, playing wi
 
 ---
 
-Looking back, there was nothing that ~profound~ on going on a solo trip. <mark>I had no epic realizations or anything, but I did like having to travel on my own terms, at my own time and at my own pace.</mark> The only downside was I had to exert myself to make friends, but then again, that's a muscle I need to exercise every now and then 😅
+Looking back, there was nothing that ~profound~ on going on a solo trip. <mark>I had no epic realizations or anything, but I did like having to travel on my own terms, at my own time and at my own pace.</mark> The only downside was I had to exert myself to make friends; but then again, that's a muscle I need to exercise every now and then 😅
 
 My companions were always slightly surprised that I came alone, which I understood because this used to be a foreign concept to me, too, until just recently. But I think that if you're privileged enough to do so, you owe it to yourself to go travel on your own at least once in your life. It sort of gave me this feeling that I can be in command of anything, and I liked it and how it lingered long after my trip's over 😊
 

@@ -1,12 +1,12 @@
 'use strict';
 
 module.exports = {
-  url: 'https://hxlcyon.netlify.com',
+  url: 'https://cayeborreo.netlify.com',
   pathPrefix: '/',
   title: '<rph />',
   subtitle: 'The Pharmacist Who Codes',
-  copyright: '© 2019 · hxlcyon · All rights reserved',
-  disqusShortname: '',
+  copyright: '© 2019 · <rph /> · All rights reserved',
+  disqusShortname: 'cayeborreo',
   postsPerPage: 7,
   googleAnalyticsId: 'UA-144194562-1',
   menu: [
@@ -20,12 +20,12 @@ module.exports = {
     }
   ],
   author: {
-    name: '<rph />',
+    name: 'Caye',
     photo: '/author.jpg',
     bio:
       'Hi, I\'m Caye. I\'m a pharmacist passionate about improving health care through tech.',
     contacts: {
-      email: 'mcgborreo@gmail.com',
+      email: 'mcborreo@gmail.com',
       twitter: 'mcborreo',
       github: 'cayeborreo'
     }

@@ -4,10 +4,10 @@ import { Link } from 'gatsby';
 import Author from './Author';
 import Comments from './Comments';
 import Content from './Content';
-import Meta from './Meta';
+// import Meta from './Meta';
 import Tags from './Tags';
 import Scroll from '../Scroll';
-import Copyright from '../Sidebar/Copyright/Copyright';
+// import Copyright from '../Sidebar/Copyright/Copyright';
 import styles from './Post.module.scss';
 import { useSiteMetadata } from '../../hooks';
 import type { Node } from '../../types';
@@ -20,7 +20,7 @@ const Post = ({ post }: Props) => {
   const { html } = post;
   const { tagSlugs, slug } = post.fields;
   const { tags, title, date } = post.frontmatter;
-  const { copyright } = useSiteMetadata();
+  // const { copyright } = useSiteMetadata();
 
   return (
     <div className={styles['post']}>
