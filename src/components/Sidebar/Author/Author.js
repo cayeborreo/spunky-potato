@@ -1,6 +1,7 @@
 // @flow
 import React from 'react';
-import { withPrefix, Link } from 'gatsby';
+import { graphql, Link, StaticQuery } from 'gatsby';
+import Img from 'gatsby-image';
 import styles from './Author.module.scss';
 
 type Props = {
@@ -15,12 +16,26 @@ type Props = {
 const Author = ({ author, isIndex }: Props) => (
   <div className={styles['author']}>
     <Link to='/'>
-      <img
-        src={withPrefix(author.photo)}
-        className={styles['author__photo']}
-        width='75'
-        height='75'
-        alt={author.name}
+      <StaticQuery
+        query={graphql`
+          query {
+            heroImg: file(relativePath: { eq: "author.jpg" }) {
+              childImageSharp {
+                fixed(quality: 100, width: 125) {
+                  ...GatsbyImageSharpFixed_withWebp
+                }
+              }
+            }
+          }
+        `}
+        render={({ heroImg }) => (
+          <Img
+            fixed={heroImg.childImageSharp.fixed}
+            alt="Hi, I'm Caye."
+            className={styles['author__photo']}
+            alt={author.name}
+          />
+        )}
       />
     </Link>
 
