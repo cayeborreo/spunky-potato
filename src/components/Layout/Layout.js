@@ -17,7 +17,7 @@ type Props = {
 };
 
 const Layout = ({ children, title, description }: Props) => {
-  const imageFilename =    typeof window === 'undefined' ? '/new-home' : location.pathname;
+  const imageFilename =    typeof window === 'undefined' ? '/posts/new-home' : location.pathname;
   console.log(`https://cayeborreo.netlify.com/media${imageFilename}.jpg`);
   return (
     <div className={styles.layout}>
@@ -26,6 +26,7 @@ const Layout = ({ children, title, description }: Props) => {
         <title>{title}</title>
         <meta name='description' content={description} />
         <meta property='og:site_name' content={title} />
+        <meta property='og:title' content={title} />
         <meta name='twitter:card' content='summary_large_image' />
         <meta name='twitter:site' content='&lt;rph />' />
         <meta name='twitter:title' content={title} />

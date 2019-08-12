@@ -63,13 +63,13 @@ For those who haven't fully grasped yet what UHC is about, here's every UHC spea
 
 <mark>**Basically, UHC's goal is for every Filipino to be financially protected when availing health services.**</mark> No one should die because they can't afford the health services they need to live. It's so easy to articulate but very hard to accomplish, because the approach here is multi-sectoral: health services, human resources, financing, information systems, education, and everything in between all need to be considered.
 
-Let's Pareto this out and just focus on 20% of the things I learned that day that was 80% of the main takeaway I got from the event (mostly from [Dr Domingo](https://twitter.com/AlbertDomingo)'s talk, because he laid out the _challenges_ UHC is facing). Pain points are fun to talk about because it simply means solutions are yet to be crafted, so let's focus on those. (UHC has plenty, don't worry 🤭)
+Let's Pareto this out and just focus on 20% of the presented ideas that was 80% of the main takeaway I got from the event (mostly from [Doc Domingo](https://twitter.com/AlbertDomingo)'s and Doc Nikka Hao's talks, because the former laid out the challenges UHC is facing and the latter talked about devolution and an implementation situationer). Pain points are fun to talk about because it simply means solutions are yet to be crafted, so let's focus on those.
 
 ### 📌 Pain point #1: Whose roles is what?
 
 Two main stakeholders pop into mind when talking about UHC: the Department of Health, and PhilHealth. The roles and responsibilities of these two institutions have to be defined, as both have their own respective stream of funds and whatnot. There's also the local government units (LGUs) and the private sector to consider, as they will be the frontliners of the health services UHC is talking about. Who should follow who?
 
-[In a separate Twitter thread I follow](https://twitter.com/endocrine_witch/status/1160023883056992256) (thanks Doc Iris!), I soon learned that the roles will largely be defined whether we're talking about population-based (DOH) or individual-based (PhilHealth) services. These will be detailed further in the implementing rules and regulations.
+[In a separate Twitter thread I follow](https://twitter.com/endocrine_witch/status/1160023883056992256) (thanks Doc Iris!), I soon learned that the roles will largely be defined whether we're talking about **population-based** (DOH) or **individual-based** (PhilHealth) services. These will be detailed further in the implementing rules and regulations.
 
 ### 📌 Pain point #2: How do we lower out-of-pocket payments?
 
@@ -80,9 +80,9 @@ Two main stakeholders pop into mind when talking about UHC: the Department of He
 
 [According to the Philippine Statistics Authority](https://psa.gov.ph/pnha-press-release), "Household out-of-pocket payment (OOP) posted Php 372.8-B or 54.5% of current health expenditures in 2017". PhilHealth, meanwhile, paid for only ~18% of health expenditures.
 
-It's not enough. Juan and Juana is still paying most of their health expenses on their own.
+It's not enough. Juan and Juana is still paying for most of their health expenses on their own.
 
-Around half of OOP payments has gone to pharmacies. This is just depressing because while it's common knowledge that we're all spending a lot on medicines, DOH on the other hand [has been reported](https://cnnphilippines.com/news/2019/7/25/COA-DOH-medicine-warehouse.html) to be overstocking medicines worth Php 18-B lying undistributed in their warehouses—some even remaining there for more than four years.
+**Around half of OOP payments has gone to pharmacies.** This is just depressing because while it's common knowledge that we're all spending a lot on medicines, DOH on the other hand [has been reported](https://cnnphilippines.com/news/2019/7/25/COA-DOH-medicine-warehouse.html) to be overstocking medicines worth Php 18-B lying undistributed in their warehouses—some even remaining there for more than four years.
 
 ![DOH medicines](/media/2019-08-09/doh-medicines.jpg)
 
@@ -92,11 +92,11 @@ This pain point just highlights two pressing solutions: 1) <mark>Medicines shoul
 
 For HCPs/students out there who's taken Public Health, words such as _mistriaging_, _fragmentation_ and _non-gatekeeping_ won't be foreign concepts. They still remain to be health care's challenges to this day.
 
-I keep thinking about UHC's goal of minimizing costs but at the same time not compromising the quality of care. Ultimately, **primary health care (PHC)** is going to play a huge role into all this.
+I keep thinking about UHC's goal of minimizing costs but at the same time not compromising the quality of care. <mark>Ultimately, **primary health care (PHC)** is going to play a huge role into all this.</mark>
 
 PHC's whole-of-society approach (as in, even [social determinants of health](https://www.who.int/social_determinants/sdh_definition/en/) are weighed in) is essential because in the continuum of care flowchart of prevention-treatment-maintenance, it plays a role as early as primary prevention/risk exposure reduction. Health promotion and education, vaccination efforts, lifestyle change promotion—all these are functions of PHC. And in the long run, prevention really is better (and cheaper!) than cure.
 
-Barangay health stations, rural health units and city health offices, and primary care clinics will have to promote themselves better as the first point of care. Costs go higher when patients directly go to ambulatory care or tertiary hospitals for complaints like, say, diarrhea or flu.
+Barangay health stations, rural health units and city health offices, and primary care clinics will have to promote themselves better as the first point of care. Costs go higher when patients directly go to ambulatory care or tertiary hospitals for complaints like, say, diarrhea or flu, which could've been easily resolved at home or in an outpatient clinic.
 
 Another thing that will be essential for integrated health service delivery is... <mark>**a working health information system**</mark>. For patients to avoid falling victim to fragmented health services when they decide to switch health care providers, their medical records should be readily available so no crucial information is missed when they're being attended to. Patient confidentiality and data privacy should also be maintained alongside this.
 
@@ -104,17 +104,17 @@ Another thing that will be essential for integrated health service delivery is..
 
 **But that system is pretty much non-existent as of today.** I [learned through Twitter](https://twitter.com/mcborreo/status/1157656277519982593) (the various information I glean from that site is priceless, I swear) that a National eHealth System and Services Act is currently under the works, and I just hope there is a way to be updated on that bill's proceedings.
 
-As a pharmacist now in the field of information technology, of course a _properly implemented_ national health information system would be an obvious advocacy. Imagine doctors spending their time logging redundant information to more patient interaction instead. Imagine patients getting better quality of care because of rich patient and medical history. Imagine processes being seamless once patient data is centralized. Imagine how easy health research could be, and how fast epidemiology reports could be generated with a working system.
+As a pharmacist now in the field of information technology, of course a _properly implemented_ national health information system would be an obvious advocacy. Imagine doctors allocating the time spent logging redundant information to more patient interaction instead. Imagine patients getting better quality of care because of rich patient and medical history. Imagine processes being seamless once patient data is centralized. Imagine how easy health research could be, and how fast epidemiology reports could be generated with a working system.
 
 It's nice to imagine all these, but I wonder: When does the imagining stop, and the planning and implementing begin?
 
 ---
 
-This event left me with more questions than answers, which is a good thing. But the one big question that remains is: **Where are we, really?**
+This event left me with more questions than answers, which isn't a bad thing. But the question remained: **Where are we, really?**
 
 I got to ask this in the Q&A session, and here are the answers I got:
 
-1. DOH has these 3- and 6-year checkpoints. I'm still looking for that document which I most likely think is a health agenda of some sort, but no luck (would appreciate if someone could point me to the right direction).
+1. DOH has these 3- and 6-year checkpoints. I'm still looking for that document which I most likely think is a health agenda of some sort, but no luck (would appreciate if someone could <a href="https://twitter.com/intent/tweet?text=@mcborreo" target="_blank">point me</a> to the right direction).
 2. The 107-page [implementing rules and regulations](https://www.doh.gov.ph/sites/default/files/health_magazine/UHC-IRR-Draft.pdf) document is already drafted and just waiting for release.
 3. [UHC will start to be piloted](https://news.mb.com.ph/2019/04/08/31-pilot-areas-for-implementation-of-universal-health-care-to-be-identified-by-doh/) in various implementation sites which DOH has cherry-picked.
 4. (Because I mentioned I'm a pharmacist in IT) Technical working groups are currently meeting regularly, and they're comprised of professionals from the three main stakeholders (DOH, PhilHealth and LGUs), and from a wide variety of disciplines. And I quote this coming from a DOH official:
@@ -129,9 +129,9 @@ I got to ask this in the Q&A session, and here are the answers I got:
 
 ---
 
-That sums about it. The rest of the afternoon was a health policy workshop, which frankly was very tricky to facilitate, and an orientation video regarding YAHR. It's basically a platform for youth advocates to be involved with health reforms, which is a great initiative to involve the youth and young professionals just starting out their careers in health care.
+That sums about it. The rest of the afternoon was a health policy workshop, which was a bit tricky to facilitate, and an orientation video regarding YAHR. YAHR is basically a platform for youth advocates to be involved with health reforms, which is a great initiative for the youth and young professionals just starting out their careers in health care.
 
-If you really think about it, getting involved with health reforms as a young professional actually makes sense. After all, we're the generation who's going to fall heir to the system that's being devised now.
+If you really think about it, getting involved with health reforms as a young professional actually makes sense. After all, we're the generation who's going to fall heir to the system that's being developed now.
 
 <figure>
 	<img src="/media/2019-08-09/panorama.jpeg" alt="Panorama shot!" />
