@@ -17,8 +17,23 @@ type Props = {
 };
 
 const Layout = ({ children, title, description }: Props) => {
-  const imageFilename =    typeof window === 'undefined' ? '/posts/new-home' : location.pathname;
-  console.log(`https://cayeborreo.netlify.com/media${imageFilename}.jpg`);
+  // const imageFilename = typeof window === 'undefined' ? '/posts/new-home' : location.pathname;
+  // const imageFilename = location.pathname
+  //   ? location.pathname
+  //   : '/posts/new-home';
+  // console.log(`https://cayeborreo.netlify.com/media${imageFilename}.jpg`);
+  const getCardImage = () => {
+    if (typeof window !== 'undefined') {
+      return (
+        <meta
+          name='twitter:image'
+          content={`http://cayeborreo.netlify.com/media${
+            location.pathname
+          }.jpg`}
+        />
+      );
+    }
+  };
   return (
     <div className={styles.layout}>
       <Helmet>
@@ -32,10 +47,7 @@ const Layout = ({ children, title, description }: Props) => {
         <meta name='twitter:title' content={title} />
         <meta name='twitter:creator' content='@mcborreo' />
         <meta name='twitter:description' content={description} />
-        <meta
-          name='twitter:image'
-          content={`http://cayeborreo.netlify.com/media${imageFilename}.jpg`}
-        />
+        {getCardImage()}
       </Helmet>
       {children}
     </div>
