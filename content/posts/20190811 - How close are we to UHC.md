@@ -22,7 +22,7 @@ description: "The road to universal health care is a long and winding one for Ju
 
 ![ alt="In session](/media/2019-08-11/in-session.jpeg)
 
-<figcaption>Photo credit: <a href="https://twitter.com/YAHRPH/status/1156740941790638080" target="_blank">@YAHRPH</a></figcaption>
+<figcaption>Photo credit: <a href="https://twitter.com/YAHRPH/status/1156740941790638080" target="_blank" rel="noopener">@YAHRPH</a></figcaption>
 
 So there we all were in the Senate Building on August 1st, a Thursday (I had to file a vacation leave for this 😅). Most of the audience were health sciences students, some practicing health care professionals, but essentially we were all health advocates.
 
@@ -37,7 +37,7 @@ And here's the roster of speakers for the day.
 ![Speakers, 1](/media/2019-08-11/speakers-1.png)
 ![Speakers, 2](/media/2019-08-11/speakers-2.png)
 
-<figcaption>Photo credit: <a href="https://twitter.com/YAHRPH/status/1156476994676113413" target="_blank">@YAHR</a><a href="https://twitter.com/YAHRPH/status/1156541759163269120" target="_blank">PH</a></figcaption>
+<figcaption>Photo credit: <a href="https://twitter.com/YAHRPH/status/1156476994676113413" target="_blank" rel="noopener">@YAHR</a><a href="https://twitter.com/YAHRPH/status/1156541759163269120" target="_blank" rel="noopener">PH</a></figcaption>
 
 All very interesting topics, honestly. It's basically a starter pack for an overview of the Philippine health care system × universal health care × how to push for reforms via health policy and legislation. But back to the main gist of this post—
 
@@ -108,7 +108,7 @@ This event left me with more questions than answers, which isn't a bad thing. Bu
 
 I got to ask this in the Q&A session, and here are the answers I got:
 
-1. DOH has these 3- and 6-year checkpoints. I'm still looking for that document which I most likely think is a health agenda of some sort, but no luck (would appreciate if someone could <a href="https://twitter.com/intent/tweet?text=@mcborreo" target="_blank">point me</a> to the right direction).
+1. DOH has these 3- and 6-year checkpoints. I'm still looking for that document which I most likely think is a health agenda of some sort, but no luck (would appreciate if someone could <a href="https://twitter.com/intent/tweet?text=@mcborreo" target="_blank" rel="noopener">point me</a> to the right direction).
 2. The 107-page [implementing rules and regulations](https://www.doh.gov.ph/sites/default/files/health_magazine/UHC-IRR-Draft.pdf) document is already drafted and just waiting for release.
 3. [UHC will start to be piloted](https://news.mb.com.ph/2019/04/08/31-pilot-areas-for-implementation-of-universal-health-care-to-be-identified-by-doh/) in various implementation sites which DOH has cherry-picked.
 4. (Because I mentioned I'm a pharmacist in IT) Technical working groups are currently meeting regularly, and they're comprised of professionals from the three main stakeholders (DOH, PhilHealth and LGUs), and from a wide variety of disciplines. And I quote this coming from a DOH official:
@@ -130,7 +130,7 @@ If you really think about it, getting involved with health reforms as a young pr
 ![Panorama shot!](/media/2019-08-11/panorama.jpeg)
 
 <figcaption>
-Photo credit: <a href="https://twitter.com/YAHRPH/status/1156873290406752256" target="_blank">@YAHRPH</a>
+Photo credit: <a href="https://twitter.com/YAHRPH/status/1156873290406752256" target="_blank" rel="noopener">@YAHRPH</a>
 </figcaption>
 
 So... might as well let our voices be heard from the beginning, don't you think? 💊✊

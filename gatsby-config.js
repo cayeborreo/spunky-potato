@@ -92,6 +92,8 @@ module.exports = {
         ]
       }
     },
+    'gatsby-transformer-sharp',
+    'gatsby-plugin-sharp',
     {
       resolve: 'gatsby-transformer-remark',
       options: {
@@ -104,7 +106,7 @@ module.exports = {
           },
           {
             resolve: 'gatsby-remark-images',
-            options: { maxWidth: 960 }
+            options: { maxWidth: 960, quality: 90, withWebp: true }
           },
           {
             resolve: 'gatsby-remark-responsive-iframe',
@@ -118,8 +120,6 @@ module.exports = {
         ]
       }
     },
-    'gatsby-transformer-sharp',
-    'gatsby-plugin-sharp',
     'gatsby-plugin-netlify',
     {
       resolve: 'gatsby-plugin-netlify-cms',
