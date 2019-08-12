@@ -2,7 +2,6 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import type { Node as ReactNode } from 'react';
-import { useStaticQuery, graphql } from 'gatsby';
 import styles from './Layout.module.scss';
 
 if (typeof window !== 'undefined') {
@@ -17,11 +16,6 @@ type Props = {
 };
 
 const Layout = ({ children, title, description }: Props) => {
-  // const imageFilename = typeof window === 'undefined' ? '/posts/new-home' : location.pathname;
-  // const imageFilename = location.pathname
-  //   ? location.pathname
-  //   : '/posts/new-home';
-  // console.log(`https://cayeborreo.netlify.com/media${imageFilename}.jpg`);
   const getCardImage = () => {
     if (typeof window !== 'undefined') {
       return (

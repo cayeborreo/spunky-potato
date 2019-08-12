@@ -143,11 +143,11 @@ figure {
 
 figcaption {
   @include line-height(.75);
-  @include margin-top(.25);
+  margin-top: -1.25rem;
+  @include margin-bottom(1.25);
   color: $color-base;
   font-size: $typographic-small-font-size;
   font-style: italic;
-  margin-bottom: 0;
   text-align: center;
 }
 

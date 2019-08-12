@@ -14,34 +14,30 @@ tags:
 description: "The road to universal health care is a long and winding one for Juan and Juana."
 ---
 
-<figure>
-	<img src="/media/posts/uhc-where-are-we-really.jpg" alt="A normal day at a Rural Health Unit" />
-	<figcaption>A normal day at a Rural Health Unit (2017)</figcaption>
-</figure>
+![A normal day at a Rural Health Unit (2017)](/media/posts/uhc-where-are-we-really.jpg)
+
+<figcaption>A normal day at a Rural Health Unit (2017)</figcaption>
 
 **Universal health care in the Philippine setting** is one of the topics that perks me up, and I will grab every opportunity to learn more about it. Which is why when [Youth Alliance for Health Reform](https://twitter.com/YAHRPH) (YAHR) announced Kamalayan as a UHC Seminar and Health Policy Workshop event, I signed up to see what it's about.
 
-<figure>
-	<img src="/media/2019-08-11/in-session.jpeg" alt="In session" />
-	<figcaption>Photo credit: <a href="https://twitter.com/YAHRPH/status/1156740941790638080" target="_blank">@YAHRPH</a></figcaption>
-</figure>
+![ alt="In session](/media/2019-08-11/in-session.jpeg)
+
+<figcaption>Photo credit: <a href="https://twitter.com/YAHRPH/status/1156740941790638080" target="_blank">@YAHRPH</a></figcaption>
 
 So there we all were in the Senate Building on August 1st, a Thursday (I had to file a vacation leave for this 😅). Most of the audience were health sciences students, some practicing health care professionals, but essentially we were all health advocates.
 
 Our keynote speaker was Sen Risa Hontiveros, author/sponsor of several bills including the [Philippine Mental Health Law](https://www.rappler.com/nation/205425-duterte-signs-mental-health-law-services-philippines), [HIV/AIDS Policy Act](https://www.rappler.com/nation/220612-duterte-signs-hiv-aids-policy-act-2018) and [Expanded Maternity Leave Law](https://news.abs-cbn.com/news/05/01/19/labor-day-victory-for-working-moms-rules-for-expanded-maternity-leave-signed). She's one of the more progressive senators out there, and I'm glad the health/LGBTQ+ sector has a champion like her in a valuable position (she currently chairs the Women, Family Relations and Gender Equality committee in the senate).
 
-<figure>
-	<img src="/media/2019-08-11/sen-risa.jpeg" alt="Sen Risa giving her keynote speech" />
-	<figcaption>“A human-made system should not stand in the way of Filipino dreams and aspirations. Let’s continue to be part of an advocacy greater than ourselves.” — Sen Risa Hontiveros (Photo credit: <a href="https://twitter.com/YAHRPH/status/1156743191615246336/" target="_blank">@YAHRPH</a>)</figcaption>
-</figure>
+![ alt="Sen Risa giving her keynote speech](/media/2019-08-11/sen-risa.jpeg)
+
+<figcaption>“A human-made system should not stand in the way of Filipino dreams and aspirations. Let’s continue to be part of an advocacy greater than ourselves.” — Sen Risa Hontiveros (Photo credit: <a href="https://twitter.com/YAHRPH/status/1156743191615246336/" target="_blank">@YAHRPH</a>)</figcaption>
 
 And here's the roster of speakers for the day.
 
-<figure>
-	<img src="/media/2019-08-11/speakers-1.png" alt="Speakers, 1" />
-	<img src="/media/2019-08-11/speakers-2.png" alt="Speakers, 2" />
-	<figcaption>Photo credit: <a href="https://twitter.com/YAHRPH/status/1156476994676113413" target="_blank">@YAHR</a><a href="https://twitter.com/YAHRPH/status/1156541759163269120" target="_blank">PH</a></figcaption>
-</figure>
+![Speakers, 1](/media/2019-08-11/speakers-1.png)
+![Speakers, 2](/media/2019-08-11/speakers-2.png)
+
+<figcaption>Photo credit: <a href="https://twitter.com/YAHRPH/status/1156476994676113413" target="_blank">@YAHR</a><a href="https://twitter.com/YAHRPH/status/1156541759163269120" target="_blank">PH</a></figcaption>
 
 All very interesting topics, honestly. It's basically a starter pack for an overview of the Philippine health care system × universal health care × how to push for reforms via health policy and legislation. But back to the main gist of this post—
 
@@ -50,16 +46,14 @@ All very interesting topics, honestly. It's basically a starter pack for an over
 <figure>
 	<blockquote>
 		<p>No one should die because they can't afford the health services they need to live.</p>
-	</blockquote>
+</blockquote>
 </figure>
 
 **Republic Act No 11223** (easy to remember, no?), also known as the **Universal Health Care Act**, [was signed into law](https://www.rappler.com/nation/223942-duterte-signs-universal-health-care-law) this February 2019. There's a whole journey about it from developing both the Senate and House bills, to reconciling them to an Act, having it signed, and finally getting to implement it, but that's already explained [here](https://www.who.int/philippines/news/feature-stories/detail/uhc-act-in-the-philippines-a-new-dawn-for-health-care).
 
 For those who haven't fully grasped yet what UHC is about, here's every UHC speaker's favorite cube I always see in talks:
 
-<figure>
-	<img src="/media/2019-08-11/uhc-cube-med.gif" alt="The favorite UHC cube" />
-</figure>
+![The favorite UHC cube](/media/2019-08-11/uhc-cube-med.gif)
 
 <mark>**Basically, UHC's goal is for every Filipino to be financially protected when availing health services.**</mark> No one should die because they can't afford the health services they need to live. It's so easy to articulate but very hard to accomplish, because the approach here is multi-sectoral: health services, human resources, financing, information systems, education, and everything in between all need to be considered.
 
@@ -75,7 +69,7 @@ Two main stakeholders pop into mind when talking about UHC: the Department of He
 
 <figure class="float-right" style="width: 300px">
 	<img src="/media/2019-08-11/psa-2017-health-expenditures.png" alt="Health expenditures by financing scheme, 2017 (PSA)">
-	<figcaption>Health expenditures by financing scheme, 2017 (PSA)</figcaption>
+	<figcaption style="margin-top: .25rem">Health expenditures by financing scheme, 2017 (PSA)</figcaption>
 </figure>
 
 [According to the Philippine Statistics Authority](https://psa.gov.ph/pnha-press-release), "Household out-of-pocket payment (OOP) posted Php 372.8-B or 54.5% of current health expenditures in 2017". PhilHealth, meanwhile, paid for only ~18% of health expenditures.
@@ -133,11 +127,10 @@ That sums about it. The rest of the afternoon was a health policy workshop, whic
 
 If you really think about it, getting involved with health reforms as a young professional actually makes sense. After all, we're the generation who's going to fall heir to the system that's being developed now.
 
-<figure>
-	<img src="/media/2019-08-11/panorama.jpeg" alt="Panorama shot!" />
-	<figcaption>
-		Photo credit: <a href="https://twitter.com/YAHRPH/status/1156873290406752256" target="_blank">@YAHRPH</a>
-	</figcaption>
-</figure>
+![Panorama shot!](/media/2019-08-11/panorama.jpeg)
+
+<figcaption>
+Photo credit: <a href="https://twitter.com/YAHRPH/status/1156873290406752256" target="_blank">@YAHRPH</a>
+</figcaption>
 
 So... might as well let our voices be heard from the beginning, don't you think? 💊✊
