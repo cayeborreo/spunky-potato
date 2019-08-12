@@ -17,10 +17,8 @@ const PostTemplate = ({ data }: Props) => {
     description: postDescription
   } = data.markdownRemark.frontmatter;
   const metaDescription =    postDescription !== null ? postDescription : siteSubtitle;
-  const imageFilename =    typeof window === 'undefined' ? 'new-home' : location.pathname;
   return (
     <Layout title={`${postTitle}`} description={metaDescription}>
-      <meta name='twitter:image' content={`/media/${imageFilename}.jpg`} />
       <Post post={data.markdownRemark} />
     </Layout>
   );
