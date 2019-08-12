@@ -2,7 +2,6 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
 import Post from '../components/Post';
-import Scroll from '../components/Scroll';
 import { useSiteMetadata } from '../hooks';
 import type { MarkdownRemark } from '../types';
 
@@ -17,7 +16,6 @@ const PostTemplate = ({ data }: Props) => {
     description: postDescription
   } = data.markdownRemark.frontmatter;
   const metaDescription =    postDescription !== null ? postDescription : siteSubtitle;
-
   return (
     <Layout title={`${postTitle}`} description={metaDescription}>
       <Post post={data.markdownRemark} />

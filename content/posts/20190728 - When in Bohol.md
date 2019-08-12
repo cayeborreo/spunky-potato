@@ -14,7 +14,7 @@ description: "On my first solo trip, I finally get to see a famous postcard favo
 ---
 
 <figure>
-	<img src="/media/2019-07-28/day-tour-02-chocolate-hills.jpg" alt="Chocolate Hills from the top" />
+	<img src="/media/posts/when-in-bohol.jpg" alt="Chocolate Hills from the top" />
 	<figcaption>Took me 214 (yes, 214) steps to get to the viewing deck up top for this view. Well... it was pretty worth it.</figcaption>
 </figure>
 
@@ -112,7 +112,7 @@ I submerged my camera and took videos randomly while we were boating towards the
 <figcaption>Look at all those fishes! 🐠</figcaption>
 </figure>
 
-**It was so beautiful, I wanted to cry.** I've been to several snorkeling sites before, including El Nido in Palawan and Apo Island in Negros Oriental, but goddamn. No one held a candle against Balicasag's beauty. I've never seen marine life this up close, and the fishes were just _swarming_. I got to see them in schools. 🐠
+And then we went snorkeling. **It was so beautiful, I wanted to cry.** I've been to several snorkeling sites before, including El Nido in Palawan and Apo Island in Negros Oriental, but goddamn. No one held a candle against Balicasag's beauty. I've never seen marine life this up close, and the fishes were just _swarming_. I got to see them in schools. 🐠
 
 <figure>
 <img src="/media/2019-07-28/its-a-school!.gif" alt="Balicasag, 4" />
@@ -148,8 +148,8 @@ Honestly, this went on for every sea creature we saw. I was the constantly amaze
 </figure>
 
 <figure>
-<img src="/media/2019-07-28/VI-chocolate-chip-starfish.jpg" alt="Chocolate chip starfish 🍫⭐" />
-<figcaption>Apparently, they call this the chocolate chip starfish. And with good reason. 🍫⭐</figcaption>
+<img src="/media/2019-07-28/VI-chocolate-chip-starfish.jpg" alt="Chocolate chip starfish 🍪⭐" />
+<figcaption>Apparently, they call this the chocolate chip starfish. And with good reason. 🍪⭐</figcaption>
 </figure>
 
 <figure>
