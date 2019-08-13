@@ -1,19 +1,19 @@
 ---
 title: When In Bohol
-date: "2019-07-28T19:10:26.191Z"
-template: "post"
+date: '2019-07-28T19:10:26.191Z'
+template: 'post'
 draft: false
-slug: "/posts/when-in-bohol"
-category: "Travel"
+slug: '/posts/when-in-bohol'
+category: 'Travel'
 tags:
-  - "bohol"
-  - "adventure"
-  - "first"
-  - "solo"
-description: "On my first solo trip, I finally get to see a famous postcard favorite in the flesh (and discover islands with amazing marine life along the way)."
+  - 'bohol'
+  - 'adventure'
+  - 'first'
+  - 'solo'
+description: 'On my first solo trip, I finally get to see a famous postcard favorite in the flesh (and discover islands with amazing marine life along the way).'
 ---
 
-![Chocolate Hills from the top](/media/posts/when-in-bohol.jpg)
+![Chocolate Hills from the top](https://res.cloudinary.com/cayeborreo/image/upload/v1565716726/featured/when-in-bohol_jxwewu.jpg)
 
 <figcaption>Took me 214 (yes, 214) steps to get to the viewing deck up top for this view. Well... it was pretty worth it.</figcaption>
 
@@ -23,7 +23,7 @@ I didn't know a thing about Bohol, which made it the ideal destination when the 
 
 ---
 
-![Bohol from the plane](/media/2019-07-28/flight-01.jpg)
+![Bohol from the plane](https://res.cloudinary.com/cayeborreo/image/upload/v1565714371/2019-07-28/flight-01_vjljmj.jpg)
 
 <figcaption>It's just... hills everywhere?</figcaption>
 
@@ -31,29 +31,29 @@ It was a Friday when I landed. Since I was two hours earlier than the expected 9
 
 Afterwards, the Countryside Tour commenced 🌄
 
-![Python and Butterfly Garden](/media/2019-07-28/day-tour-01-butterfly-garden.jpg)
+![Python and Butterfly Garden](https://res.cloudinary.com/cayeborreo/image/upload/v1565714311/2019-07-28/day-tour-01-butterfly-garden_gax0zq.jpg)
 
 <figcaption>Python and Butterfly Garden. (Between the two, I preferred handling the python than staying in the butterfly area for more than a minute 😩 Butterflies just remind me so much of flying cockroaches)</figcaption>
 
-![Man-made Forest](/media/2019-07-28/day-tour-04-manmade-forest.jpg)
+![Man-made Forest](https://res.cloudinary.com/cayeborreo/image/upload/v1565714368/2019-07-28/day-tour-04-manmade-forest_qkctim.jpg)
 
 <figcaption>Man-made Forest in Loboc</figcaption>
 
-![Philippine Tarsier Sanctuary](/media/2019-07-28/day-tour-03-tarsier-sign.jpg)
+![Philippine Tarsier Sanctuary](https://res.cloudinary.com/cayeborreo/image/upload/v1565714391/2019-07-28/day-tour-05-loboc-buffet-lunch_r4lp7y.jpg)
 
-![Spot the small primate 🙈](/media/2019-07-28/day-tour-03-tarsier.jpg)
+![Spot the small primate 🙈](https://res.cloudinary.com/cayeborreo/image/upload/v1565714304/2019-07-28/day-tour-03-tarsier_i39ilm.jpg)
 
 <figcaption>Spot the small primate 🙈</figcaption>
 
 No shortage of nature here in mainland Bohol. And Bohol's pretty known for its tarsiers, so of course we _had_ to visit the conservatory area. They're about the size of my fist! They're nocturnal, though, hence the sleeping primate picture. Everyone kept shushing us while on the trail hahaha
 
-![Loboc River Cruise](/media/2019-07-28/river-cruise.gif)
+![Loboc River Cruise](https://res.cloudinary.com/cayeborreo/image/upload/v1565715068/2019-07-28/river-cruise_x5scht.gif)
 
-![Some friends I made during the tour](/media/2019-07-28/day-tour-05-loboc-buffet-lunch.jpg)
+![Some friends I made during the tour](https://res.cloudinary.com/cayeborreo/image/upload/v1565714391/2019-07-28/day-tour-05-loboc-buffet-lunch_r4lp7y.jpg)
 
 We had a buffet lunch, river-cruise style, in Loboc. My lunchmates were a family from Rizal vacationing around Cebu and Bohol for the week, and we mostly just critiqued the food being served 😂 The cruise once stopped by a stationed raft along the river and we got to watch a group of performers sing while dancing the _tinikling_. We also had a guitarist-singer onboard, singing songs from Mama Stella's times (the sassy grandma pictured above).
 
-![Baclayon Church](/media/2019-07-28/day-tour-06-baclayon.jpg)
+![Baclayon Church](https://res.cloudinary.com/cayeborreo/image/upload/v1565714356/2019-07-28/day-tour-06-baclayon_ksjk2e.jpg)
 
 <figcaption>Baclayon Church</figcaption>
 
@@ -83,11 +83,11 @@ I went with these two ladies and their German friend, who I would soon learn and
 
 I submerged my camera and took videos randomly while we were boating towards the snorkeling sites. When I saw this particular footage, I was amazed and scared at the same time. Just imagine how deep that part is right there! Goddamn.
 
-![Balicasag, 1](/media/2019-07-28/balicasag-01.jpg)
+![Balicasag, 1](https://res.cloudinary.com/cayeborreo/image/upload/v1565714292/2019-07-28/balicasag-01_b5phsx.jpg)
 
-![Balicasag, 2](/media/2019-07-28/balicasag-02.jpg)
+![Balicasag, 2](https://res.cloudinary.com/cayeborreo/image/upload/v1565714287/2019-07-28/balicasag-02_sqbpgm.jpg)
 
-![Balicasag, 3](/media/2019-07-28/balicasag-03.jpg)
+![Balicasag, 3](https://res.cloudinary.com/cayeborreo/image/upload/v1565714309/2019-07-28/balicasag-03_z9orcp.jpg)
 
 <figcaption>Look at all those fishes! 🐠</figcaption>
 
@@ -106,25 +106,25 @@ After snorkeling, we headed towards Virgin Island. There was a sandbar, so we to
 <b>Me:</b> 🤯<br />
 </blockquote>
 
-![Stingless jellyfish](/media/2019-07-28/jewwyfish.gif)
+![Stingless jellyfish](https://res.cloudinary.com/cayeborreo/image/upload/v1565714762/2019-07-28/jewwyfish_mrkbw7.gif)
 
 <figcaption>Look at it go 🥺</figcaption>
 
 Honestly, this went on for every sea creature we saw. I was the constantly amazed student that day, and I'm not complaining.
 
-![Virgin Island, 1](/media/2019-07-28/VI-sandbar.jpg)
+![Virgin Island, 1](https://res.cloudinary.com/cayeborreo/image/upload/v1565714481/2019-07-28/VI-sandbar_fzl9ee.jpg)
 
 <figcaption>The two ladies exploring the sandbar 🤓</figcaption>
 
-![Virgin Island, 2](/media/2019-07-28/VI-me-at-the-sandbar.jpg)
+![Virgin Island, 2](https://res.cloudinary.com/cayeborreo/image/upload/v1565714428/2019-07-28/VI-me-at-the-sandbar_niktw1.jpg)
 
 <figcaption>Hola!</figcaption>
 
-![Chocolate chip starfish 🍪⭐](/media/2019-07-28/VI-chocolate-chip-starfish.jpg)
+![Chocolate chip starfish 🍪⭐](https://res.cloudinary.com/cayeborreo/image/upload/v1565714434/2019-07-28/VI-chocolate-chip-starfish_uxkt7m.jpg)
 
 <figcaption>Apparently, they call this the chocolate chip starfish. And with good reason. 🍪⭐</figcaption>
 
-![Sea urchins for sale](/media/2019-07-28/VI-sea-urchin-for-sale.jpg)
+![Sea urchins for sale](https://res.cloudinary.com/cayeborreo/image/upload/v1565714508/2019-07-28/VI-sea-urchin-for-sale_bwlpap.jpg)
 
 <figcaption>Sea urchins you can break open, scoop out and eat... for sale 😲 (Bart tried it!)</figcaption>
 
@@ -146,4 +146,4 @@ I'm glad I spent this first in Bohol. It felt like time suspended while I was th
 
 I'm sure this isn't the last time I'll see Panglao. So I guess... until then ❤️
 
-![Goodbye, Panglao :'(](/media/2019-07-28/flight-02.jpg)
+![Goodbye, Panglao :'(](https://res.cloudinary.com/cayeborreo/image/upload/v1565714418/2019-07-28/flight-02_iehrej.jpg)
