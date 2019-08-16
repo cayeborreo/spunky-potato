@@ -9,7 +9,11 @@ const Scroll = () => (
       ← Home
     </Link>
 
-    <a className={styles['scroll__button-back-to-top']} href='#top'>
+    <a
+      className={styles['scroll__button-back-to-top']}
+      href='#top'
+      rel='noopener'
+    >
       ↑ Back to top
     </a>
   </div>

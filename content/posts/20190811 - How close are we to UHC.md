@@ -30,7 +30,7 @@ Our keynote speaker was Sen Risa Hontiveros, author/sponsor of several bills inc
 
 ![ alt="Sen Risa giving her keynote speech](/media/2019-08-11/sen-risa.jpeg)
 
-<figcaption>“A human-made system should not stand in the way of Filipino dreams and aspirations. Let’s continue to be part of an advocacy greater than ourselves.” — Sen Risa Hontiveros (Photo credit: <a href="https://twitter.com/YAHRPH/status/1156743191615246336/" target="_blank">@YAHRPH</a>)</figcaption>
+<figcaption>“A human-made system should not stand in the way of Filipino dreams and aspirations. Let’s continue to be part of an advocacy greater than ourselves.” — Sen Risa Hontiveros (Photo credit: <a href="https://twitter.com/YAHRPH/status/1156743191615246336/" target="_blank" rel="noopener">@YAHRPH</a>)</figcaption>
 
 And here's the roster of speakers for the day.
 

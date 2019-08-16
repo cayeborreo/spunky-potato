@@ -14,7 +14,8 @@ const Author = () => {
         <a
           className={styles['author__bio-twitter']}
           href={getContactHref('twitter', author.contacts.twitter)}
-          target="_blank"
+          target='_blank'
+          rel='noopener'
         >
           <strong>@mcborreo</strong> on Twitter
         </a>
