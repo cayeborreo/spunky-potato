@@ -42,6 +42,7 @@ module.exports = {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
+          'gatsby-remark-relative-images',
           {
             resolve: 'gatsby-remark-katex',
             options: {
@@ -50,7 +51,12 @@ module.exports = {
           },
           {
             resolve: 'gatsby-remark-images',
-            options: { maxWidth: 960, quality: 80, withWebp: true }
+            options: {
+              maxWidth: 960,
+              quality: 80,
+              withWebp: true,
+              ignoreFileExtensions: []
+            }
           },
           // {
           //   resolve: 'gatsby-remark-relative-images',
