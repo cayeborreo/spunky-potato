@@ -20,7 +20,7 @@ const Layout = ({ children, title, description }: Props) => {
     if (typeof window !== 'undefined') {
       return (
         <meta
-          name='twitter:image'
+          name='og:image'
           content={`http://cayeborreo.netlify.com/media${
             location.pathname
           }.jpg`}
@@ -33,6 +33,7 @@ const Layout = ({ children, title, description }: Props) => {
       <Helmet>
         <html lang='en' />
         <title>{title}</title>
+        <meta name='googlebot' content='all' />
         <meta name='description' content={description} />
         <meta property='og:site_name' content={title} />
         <meta property='og:title' content={title} />

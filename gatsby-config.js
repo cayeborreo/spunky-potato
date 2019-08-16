@@ -52,10 +52,11 @@ module.exports = {
           {
             resolve: 'gatsby-remark-images',
             options: {
-              maxWidth: 960,
+              maxWidth: 650,
               quality: 80,
               withWebp: true,
-              ignoreFileExtensions: []
+              ignoreFileExtensions: [],
+              loading: 'lazy'
             }
           },
           // {
