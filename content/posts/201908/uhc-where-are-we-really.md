@@ -6,11 +6,11 @@ draft: false
 slug: "/posts/uhc-where-are-we-really"
 category: "Public Health"
 tags:
+  - "advocacy"
   - "health"
+  - "thinkpiece"
   - "uhc"
   - "yahr"
-  - "advocacy"
-  - "thinkpiece"
 description: "The road to universal health care is a long and winding one for Juan and Juana."
 ---
 

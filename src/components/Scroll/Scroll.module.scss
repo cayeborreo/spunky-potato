@@ -18,12 +18,14 @@
       border-radius: $button-border-radius;
       font-size: $typographic-base-font-size;
       font-weight: normal;
+      text-decoration: none !important;
 
       @include margin-top(1);
 
       &:hover,
       &:focus {
-        color: $color-primary;
+        border-color: $color-secondary;
+        color: $color-base;
       }
     }
 

@@ -3,14 +3,13 @@ title: When In Bohol
 date: "2019-07-28T19:10:26.191Z"
 template: "post"
 draft: false
-slug: "/posts/when-in-bohol"
-category: "Travel"
+category: "Adventures"
 tags:
   - "bohol"
-  - "adventure"
   - "first"
   - "solo"
-description: "On my first solo trip, I finally get to see a famous postcard favorite in the flesh (and discover islands with amazing marine life along the way)."
+  - "travel"
+description: "I finally get to see a famous postcard favorite in the flesh."
 ---
 
 ![Chocolate Hills from the top](/media/posts/when-in-bohol.jpg)

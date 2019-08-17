@@ -38,18 +38,18 @@ const Feed = ({ edges }: Props) => (
         </h2>
         <p className={styles['feed__item-description']}>
           {edge.node.frontmatter.description}{' '}
-          <Link
+          {/* <Link
             className={styles['feed__item-readmore']}
             to={edge.node.fields.slug}
           >
             Read →
-          </Link>
+          </Link> */}
           <br />
           <time
             className={styles['feed__item-meta-time']}
             dateTime={moment(edge.node.frontmatter.date).format('MMMM D, YYYY')}
           >
-            {moment(edge.node.frontmatter.date).format('MMMM D, YYYY')}
+            {moment(edge.node.frontmatter.date).format('MMM DD')}
           </time>
           <span className={styles['feed__item-meta-duration']}>
             ☕ {edge.node.timeToRead} min read
