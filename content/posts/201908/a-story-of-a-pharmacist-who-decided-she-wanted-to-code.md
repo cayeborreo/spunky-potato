@@ -2,7 +2,7 @@
 title: How a Pharmacist Decided She Wanted To Code
 date: "2019-08-17T10:31:37.121Z"
 template: "post"
-draft: false
+draft: true
 category: "Introspection"
 tags:
   - "blogging"

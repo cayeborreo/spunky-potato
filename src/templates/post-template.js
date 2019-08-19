@@ -13,11 +13,16 @@ const PostTemplate = ({ data }: Props) => {
   const { title: siteTitle, subtitle: siteSubtitle } = useSiteMetadata();
   const {
     title: postTitle,
-    description: postDescription
+    description: postDescription,
+    featuredImage
   } = data.markdownRemark.frontmatter;
   const metaDescription =    postDescription !== null ? postDescription : siteSubtitle;
   return (
-    <Layout title={`${postTitle}`} description={metaDescription}>
+    <Layout
+      title={`${postTitle}`}
+      description={metaDescription}
+      featuredImage={featuredImage}
+    >
       <Post post={data.markdownRemark} />
     </Layout>
   );
@@ -37,6 +42,7 @@ export const query = graphql`
         description
         tags
         title
+        featuredImage
       }
     }
   }

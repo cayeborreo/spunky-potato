@@ -10,9 +10,10 @@ tags:
   - "solo"
   - "travel"
 description: "I finally get to see a famous postcard favorite in the flesh."
+featuredImage: "/media/2019-07-28/when-in-bohol.jpg"
 ---
 
-![Chocolate Hills from the top](/media/posts/when-in-bohol.jpg)
+![Chocolate Hills from the top](/media/2019-07-28/when-in-bohol.jpg)
 
 <figcaption>Took me 214 (yes, 214) steps to get to the viewing deck up top for this view. Well... it was pretty worth it.</figcaption>
 

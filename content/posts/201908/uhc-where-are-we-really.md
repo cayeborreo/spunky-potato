@@ -12,9 +12,10 @@ tags:
   - "uhc"
   - "yahr"
 description: "The road to universal health care is a long and winding one for Juan and Juana."
+featuredImage: "2019-08-11/rhu.jpg"
 ---
 
-![A normal day at a Rural Health Unit (2017)](/media/posts/uhc-where-are-we-really.jpg)
+![A normal day at a Rural Health Unit (2017)](/media/2019-08-11/rhu.jpg)
 
 <figcaption>A normal day at a Rural Health Unit (2017)</figcaption>
 

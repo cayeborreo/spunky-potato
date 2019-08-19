@@ -21,7 +21,6 @@ const Post = ({ post }: Props) => {
   const { tagSlugs, slug } = post.fields;
   const { tags, title, date } = post.frontmatter;
   // const { copyright } = useSiteMetadata();
-
   return (
     <div className={styles['post']}>
       <Link className={styles['post__home-button']} to='/'>
@@ -34,6 +33,7 @@ const Post = ({ post }: Props) => {
 
       <div className={styles['post__footer']}>
         {/* <Meta date={date} /> */}
+        <br />
         {tags && tagSlugs && <Tags tags={tags} tagSlugs={tagSlugs} />}
         {/* <a
           className='twitter-share-button'

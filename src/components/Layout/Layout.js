@@ -1,33 +1,26 @@
 // @flow
-import React from 'react';
-import Helmet from 'react-helmet';
-import type { Node as ReactNode } from 'react';
-import styles from './Layout.module.scss';
+import React from "react";
+import Helmet from "react-helmet";
+import { graphql } from "gatsby";
+import type { Node as ReactNode } from "react";
+import styles from "./Layout.module.scss";
 
-if (typeof window !== 'undefined') {
+if (typeof window !== "undefined") {
   // Make scroll behavior of internal links smooth
-  require('smooth-scroll')('a[href*="#"]', { speed: 250 });
+  require("smooth-scroll")('a[href*="#"]', { speed: 250 });
 }
 
 type Props = {
   children: ReactNode,
   title: string,
-  description?: string
+  description?: string,
+  featuredImage?: string
 };
 
-const Layout = ({ children, title, description }: Props) => {
-  const getCardImage = () => {
-    if (typeof window !== 'undefined') {
-      return (
-        <meta
-          name='og:image'
-          content={`http://cayeborreo.netlify.com/media${
-            location.pathname
-          }.jpg`}
-        />
-      );
-    }
-  };
+const Layout = ({ children, title, description, featuredImage }: Props) => {
+  const cardImage = `https://cayeborreo.com/static/media/${featuredImage ||
+    "about/hello.jpg"}`;
+  const cardType = featuredImage ? "summary_large_image" : "summary";
   return (
     <div className={styles.layout}>
       <Helmet>
@@ -38,12 +31,13 @@ const Layout = ({ children, title, description }: Props) => {
         <meta name='description' content={description} />
         <meta property='og:site_name' content={title} />
         <meta property='og:title' content={title} />
-        <meta name='twitter:card' content='summary_large_image' />
+        <meta name='twitter:card' content={cardType} />
         <meta name='twitter:site' content='&lt;rph />' />
         <meta name='twitter:title' content={title} />
         <meta name='twitter:creator' content='@mcborreo' />
         <meta name='twitter:description' content={description} />
-        {getCardImage()}
+        <meta name='og:image' content={cardImage} />
+        {/* {getCardImage()} */}
       </Helmet>
       {children}
     </div>
