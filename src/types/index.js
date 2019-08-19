@@ -28,7 +28,8 @@ export type Node = {
     description?: string,
     category?: string,
     tags?: string[],
-    title: string
+    title: string,
+    featuredImage?: string
   },
   wordCount: {
     words: number

@@ -33,7 +33,6 @@ const Author = ({ author, isIndex }: Props) => (
             fixed={heroImg.childImageSharp.fixed}
             alt="Hi, I'm Caye."
             className={styles['author__photo']}
-            alt={author.name}
           />
         )}
       />

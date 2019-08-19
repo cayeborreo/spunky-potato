@@ -1,14 +1,14 @@
 // @flow
-import React from 'react';
-import { graphql } from 'gatsby';
-import Layout from '../components/Layout';
-import Sidebar from '../components/Sidebar';
-import Feed from '../components/Feed';
-import Page from '../components/Page';
-import Pagination from '../components/Pagination';
-import Copyright from '../components/Sidebar/Copyright/Copyright';
-import { useSiteMetadata } from '../hooks';
-import type { AllMarkdownRemark, PageContext } from '../types';
+import React from "react";
+import { graphql } from "gatsby";
+import Layout from "../components/Layout";
+import Sidebar from "../components/Sidebar";
+import Feed from "../components/Feed";
+import Page from "../components/Page";
+import Pagination from "../components/Pagination";
+import Copyright from "../components/Sidebar/Copyright/Copyright";
+import { useSiteMetadata } from "../hooks";
+import type { AllMarkdownRemark, PageContext } from "../types";
 
 type Props = {
   data: AllMarkdownRemark,
@@ -32,7 +32,8 @@ const TagTemplate = ({ data, pageContext }: Props) => {
   } = pageContext;
 
   const { edges } = data.allMarkdownRemark;
-  const pageTitle =    currentPage > 0
+  const pageTitle =
+    currentPage > 0
       ? `All Posts tagged as "${tag}" - Page ${currentPage} - ${siteTitle}`
       : `All Posts tagged as "${tag}" - ${siteTitle}`;
 
@@ -85,6 +86,7 @@ export const query = graphql`
             date
             category
             description
+            featuredImage
           }
           wordCount {
             words

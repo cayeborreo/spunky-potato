@@ -15,6 +15,7 @@
 
       &-link {
         color: $color-base;
+        text-decoration: none !important;
 
         &:hover,
         &:focus {
@@ -62,6 +63,7 @@
           font-weight: 600;
           text-transform: uppercase;
           padding: 3px;
+          text-decoration: none !important;
 
           &:hover,
           &:focus {

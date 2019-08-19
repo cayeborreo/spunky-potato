@@ -15,7 +15,8 @@ Besides health tech, public health and pharmacy-related stuff, I also love desig
 
 This blog will be a mix of all these and whatever I learn along the way. <mark>I write primarily to keep a snapshot of my state of mind at any given time, and secondarily to signal-boost shared advocacies to like-minded people.</mark> Maybe I could help future me (or perhaps others in same predicaments) navigate and make better decisions by documenting everything I've learned so far.
 
-  <img src="/media/2019-07-28/its-a-school!.gif" alt="Balicasag!" />
-  <figcaption>Did I mention I love snorkeling?</figcaption>
+![Balicasag!](/media/2019-07-28/its-a-school!.gif)
+
+<figcaption>Did I mention I love snorkeling?</figcaption>
 
 So there. Welcome to my little corner in the web. Make yourself at home ☕
