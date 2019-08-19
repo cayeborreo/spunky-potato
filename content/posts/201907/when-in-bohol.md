@@ -10,7 +10,7 @@ tags:
   - "solo"
   - "travel"
 description: "I finally get to see a famous postcard favorite in the flesh."
-featuredImage: "/media/2019-07-28/when-in-bohol.jpg"
+featuredImage: "2019/when-in-bohol.jpg"
 ---
 
 ![Chocolate Hills from the top](/media/2019-07-28/when-in-bohol.jpg)

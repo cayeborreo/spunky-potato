@@ -11,7 +11,7 @@ tags:
   - "movies"
   - "writing"
 description: "We hear this in weddings. I’m not having one, but I like how they rhyme."
-featuredImage: "2019-08-17/cinemalaya.jpg"
+featuredImage: "2019/cinemalaya.jpg"
 ---
 
 <figure>
