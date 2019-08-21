@@ -4,6 +4,7 @@ import Layout from '../components/Layout';
 import Post from '../components/Post';
 import { useSiteMetadata } from '../hooks';
 import type { MarkdownRemark } from '../types';
+import ProgressIndicator from '../components/ProgressIndicator';
 
 type Props = {
   data: MarkdownRemark
@@ -23,6 +24,7 @@ const PostTemplate = ({ data }: Props) => {
       description={metaDescription}
       featuredImage={featuredImage}
     >
+      <ProgressIndicator />
       <Post post={data.markdownRemark} />
     </Layout>
   );

@@ -1,0 +1,11 @@
+@import '../../assets/scss/variables';
+@import '../../assets/scss/mixins';
+
+.progress-indicator {
+  width: 100%;
+  position: fixed;
+  height: 0.4rem;
+  top: 0;
+  left: 0;
+  z-index: 26;
+}

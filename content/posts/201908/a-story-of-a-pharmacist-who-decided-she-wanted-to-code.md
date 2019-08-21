@@ -9,7 +9,7 @@ tags:
   - "tech"
   - "writing"
 description: "People keep asking my how’s and why’s, so here they are."
-featuredImage: "/posts/new-home.jpg"
+featuredImage: "2019/new-home.jpg"
 ---
 
 ![Road less travelled](/media/posts/new-home.jpg)
