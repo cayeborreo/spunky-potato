@@ -4,10 +4,6 @@ const path = require('path');
 const siteConfig = require('./config.js');
 const postCssPlugins = require('./postcss-config.js');
 
-const dotenv = require('dotenv').config({
-  path: `.env.${process.env.NODE_ENV}`
-});
-
 module.exports = {
   pathPrefix: siteConfig.pathPrefix,
   siteMetadata: {
