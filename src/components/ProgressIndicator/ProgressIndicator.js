@@ -56,7 +56,7 @@ const ProgressIndicator = () => {
     <div
       className={styles['progress-indicator']}
       style={{
-        background: `linear-gradient(to right,rgb(245, 238, 142) ${scrollPercent},transparent 0)`
+        background: `linear-gradient(to right,rgb(110, 110, 110) ${scrollPercent},transparent 0)`
       }}
     />
   );

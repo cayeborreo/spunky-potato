@@ -1,5 +1,5 @@
 ---
-title: Not a Bride, But I Could Use Some Luck
+title: Something Old, Something New
 date: "2019-08-17T10:31:37.121Z"
 template: "post"
 draft: false
@@ -10,15 +10,15 @@ tags:
   - "cooking"
   - "movies"
   - "writing"
-description: "We hear this in weddings. I’m not having one, but I like how they rhyme."
-featuredImage: "2019/cinemalaya.jpg"
+description: "If I nail this wedding rhyme as a non-bride, will it still bring me luck?"
+featuredImage: "2019/something-old.jpg"
 ---
 
 <figure>
   <blockquote>
-  I’m trying out a segment called <b>In Three’s</b>. I am a sucker for memorabilia, life snippets included. And there is something so naturally easy and comfortable about lists that nudges me to keep documenting things like this.
+  I’m trying out a segment called <b>In Three’s</b>. I am a sucker for memorabilia, life snippets included. And there is something so naturally easy and comfortable about lists that I find myself constantly making them.
   <br /><br />
-  Either way, here’s something to sum up my past two weeks.
+  That said, here’s something to sum up my past two weeks.
   </blockquote>
 </figure>
 
@@ -46,7 +46,7 @@ If there was a theater experience favorite from this year, it was from when I wa
 
 ---
 
-## 2. ...something borrowed—
+## 2. Something borrowed—
 
 The nice thing about being independent is you're on your own. The not-so-nice thing about being independent is you're also on your own when you catch fever and get sick.
 
@@ -60,7 +60,7 @@ I borrowed my mom's recipe.
 
 ---
 
-## 3. ...and something (that made me feel) blue.
+## 3. Something (that made her feel) blue—
 
 There are certain people whose humor and train of thought you just get. Reader, I hope that when you meet them, you make the genuine effort to keep them. Let's not have the same regrets.
 
@@ -68,11 +68,11 @@ It goes the same for books. Just by saying it's penned by my favorite show's cre
 
 ![Goddamn, this book.](/media/20190817/new-book.jpg)
 
-[It was everything I hoped for, and more](https://www.goodreads.com/review/show/2930458358?book_show_action=false&from_review_page=1). RBW was so consistently weird: think Anti-Doors, goat-slaughtering during weddings, staying in a train car for sixty years. _That_ kind of weird, aka highly creative. But in between it also had some very real parts. No matter how ridiculous the setting was, the characters still felt very human, and their experiences were genuine and fleshed out.
+[It was everything I hoped for, and more](https://www.goodreads.com/review/show/2930458358?book_show_action=false&from_review_page=1). RBW was so consistently weird: think Anti-Doors, goat-slaughtering during weddings, staying in a train car for sixty years. _That_ kind of weird; the kind that comes up with imaginative, out-of-this-world situations. But in between it also had some very real parts. No matter how ridiculous the setting was, the characters still felt very human, and their experiences were genuine and fleshed out.
 
 It's so good.
 
-There are certain attacks, too. Some lines you recognize from past conversations, some lines you realize you said yourself. I think anyone can find something from this that resonates with them.
+There are certain attacks, too. Some lines you recognize from past conversations, some lines you realize you said yourself. I think anyone can find something that resonates with them.
 
 It's been a while since I've read a book I liked so much that I highlighted some parts. And I have no idea what salted circus cashews taste like, but I definitely want a can for myself.
 
@@ -80,17 +80,9 @@ It's been a while since I've read a book I liked so much that I highlighted some
 
 <figure>
   <blockquote>
-    <b>“…And a sixpence in her shoe.”</b>
-    <br />
-    <br />
-    She empties her purse. Looks around. Nothing. So she knocks on her roommate’s door, and minutes later she emerges triumphant with a coin, which she places in her left shoe before fitting her foot in.
-    <br />
-    <br />
-    “What do you need that for?” her roommate asks.
-    <br />
-    <br />
-    She shrugs. “I could use some luck.”
+    <p>“—and a sixpence in her shoe.”</p>
+
+<footer>[This is] a traditional rhyme that details what a bride should wear at her wedding for good luck. The old item provided protection for the baby to come. The item borrowed from another happy bride provided good luck. The colour blue was a sign of fidelity. The sixpence—a silver British coin—was a symbol of prosperity or acted as a ward against evil done by frustrated suitors. —<a href="https://en.wikipedia.org/wiki/Something_old" alt="Wikipedia" rel="noopener noreferrer">Wikipedia</a></footer>
+
   </blockquote>
 </figure>
-
----
