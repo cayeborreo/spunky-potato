@@ -1,13 +1,13 @@
 // @flow
-import React from "react";
-import Helmet from "react-helmet";
-import { graphql } from "gatsby";
-import type { Node as ReactNode } from "react";
-import styles from "./Layout.module.scss";
+import React from 'react';
+import Helmet from 'react-helmet';
+import { graphql } from 'gatsby';
+import type { Node as ReactNode } from 'react';
+import styles from './Layout.module.scss';
 
-if (typeof window !== "undefined") {
+if (typeof window !== 'undefined') {
   // Make scroll behavior of internal links smooth
-  require("smooth-scroll")('a[href*="#"]', { speed: 250 });
+  require('smooth-scroll')('a[href*="#"]', { speed: 250 });
 }
 
 type Props = {
@@ -17,10 +17,14 @@ type Props = {
   featuredImage?: string
 };
 
-const Layout = ({ children, title, description, featuredImage }: Props) => {
-  const cardImage = `https://raw.githubusercontent.com/cayeborreo/assets/master/${featuredImage ||
-    "about/hello.jpg"}`;
-  const cardType = featuredImage ? "summary_large_image" : "summary";
+const Layout = ({
+ children, title, description, featuredImage 
+}: Props) => {
+  const cardImage = `${
+    process.env.GATSBY_FEATURED_IMAGES_FOLDER_URL
+  }${featuredImage || 'about/hello.jpg'}`;
+  console.log(process.env.GATSBY_FEATURED_IMAGES_FOLDER_URL);
+  const cardType = featuredImage ? 'summary_large_image' : 'summary';
   return (
     <div className={styles.layout}>
       <Helmet>
