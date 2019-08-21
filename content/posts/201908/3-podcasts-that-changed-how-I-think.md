@@ -9,7 +9,7 @@ tags:
   - "blogging"
   - "writing"
 description: "Parting is such sweet sorrow... or maybe just a little bit. I’ve now moved on from Blogger to this new self-maintained website via Gatsby/Netlify 💜"
-featuredImage: "/posts/new-home.jpg"
+featuredImage: "2019/new-home.jpg"
 ---
 
 **For the first few glances, clean slates freak me out.** They just look so sparkling clean, as if it’d be a sin to even try smudging the surface.
