@@ -1,7 +1,7 @@
 // @flow
 import React from 'react';
 import Helmet from 'react-helmet';
-import { graphql } from 'gatsby';
+// import { graphql } from 'gatsby';
 import type { Node as ReactNode } from 'react';
 import styles from './Layout.module.scss';
 
@@ -23,7 +23,6 @@ const Layout = ({
   const cardImage = `${
     process.env.GATSBY_FEATURED_IMAGES_FOLDER_URL
   }${featuredImage || 'about/hello.jpg'}`;
-  console.log(process.env.GATSBY_FEATURED_IMAGES_FOLDER_URL);
   const cardType = featuredImage ? 'summary_large_image' : 'summary';
   return (
     <div className={styles.layout}>

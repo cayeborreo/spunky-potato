@@ -1,9 +1,11 @@
-import React, {
- useState, useEffect, useRef, useCallback 
-} from 'react';
-import styles from './ProgressIndicator.module.scss';
+import React, { useState, useEffect, useRef, useCallback } from "react";
+import styles from "./ProgressIndicator.module.scss";
 
-function useEventListener(eventName, handler, element = window) {
+function useEventListener(
+  eventName,
+  handler,
+  element = typeof window !== "undefined" && window
+) {
   // Create a ref that stores handler
   const savedHandler = useRef();
 
@@ -23,7 +25,7 @@ function useEventListener(eventName, handler, element = window) {
       if (!isSupported) return;
 
       // Create event listener that calls handler function stored in ref
-      const eventListener = (event) => savedHandler.current(event);
+      const eventListener = event => savedHandler.current(event);
 
       // Add event listener
       element.addEventListener(eventName, eventListener);
@@ -38,7 +40,7 @@ function useEventListener(eventName, handler, element = window) {
 }
 
 const ProgressIndicator = () => {
-  const [scrollPercent, setScrollPercent] = useState('0%');
+  const [scrollPercent, setScrollPercent] = useState("0%");
 
   const handler = useCallback(() => {
     const scrollPercent = parseInt(
@@ -50,11 +52,11 @@ const ProgressIndicator = () => {
   }, [setScrollPercent]);
 
   // Add event listener using our hook
-  useEventListener('scroll', handler);
+  useEventListener("scroll", handler);
 
   return (
     <div
-      className={styles['progress-indicator']}
+      className={styles["progress-indicator"]}
       style={{
         background: `linear-gradient(to right,rgb(110, 110, 110) ${scrollPercent},transparent 0)`
       }}
