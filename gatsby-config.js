@@ -1,6 +1,7 @@
 'use strict';
 
 const path = require('path');
+
 const siteConfig = require('./config.js');
 const postCssPlugins = require('./postcss-config.js');
 
@@ -54,7 +55,7 @@ module.exports = {
             resolve: 'gatsby-remark-images',
             options: {
               maxWidth: 650,
-              quality: 90,
+              quality: 80,
               withWebp: true,
               ignoreFileExtensions: [],
               loading: 'lazy'
@@ -205,6 +206,7 @@ module.exports = {
         }
       }
     },
-    'gatsby-plugin-flow'
+    'gatsby-plugin-flow',
+    'gatsby-plugin-use-dark-mode'
   ]
 };

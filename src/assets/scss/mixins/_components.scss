@@ -1,0 +1,49 @@
+@import '../variables';
+@import '../mixins/line-height';
+@import '../mixins/margin';
+
+@mixin category {
+  font-size: $typographic-small-font-size !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  padding: 3px !important;
+}
+
+@mixin text-shadow($color) {
+  text-shadow: -3px 3px $color
+}
+
+@mixin content-title {
+  font-size: $typographic-base-font-size * 2;
+  max-width: $layout-post-width;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 600;
+  @include line-height(1.65);
+  @include margin-top(1);
+  @include margin-bottom(0);
+}
+
+@mixin page-title {
+  font-size: $typographic-base-font-size * 2.5;
+  font-weight: 600;
+  @include line-height(2);
+  @include margin-top(0);
+  @include margin-bottom(1.45);
+}
+
+@mixin post-tag {
+  display: inline-block;
+  padding: 0 5px;
+  text-decoration: none;
+}
+
+@mixin sidebar-divider {
+  position: absolute;
+  content: '';
+  width: 1px;
+  height: 540px;
+  top: 30px;
+  right: -10px;
+  bottom: 0;
+}

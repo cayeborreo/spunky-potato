@@ -5,11 +5,11 @@
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif:400,400i,700&display=swap');
 
 // Colors
-$color-base: #2a2a2a;
-$color-primary: #2a2a2a;
-$color-secondary: #F5EE8E;
+$color-base: #222222 !default;
+$color-primary: #F5EE8E !default;
 
-$color-white: #fafafa;
+$color-black: #111111;
+$color-white: #fafafa !default;
 $color-gray: lighten($color-base, 40%);
 $color-gray-border: lighten($color-base, 77%);
 $color-gray-bg: lighten($color-base, 79%);
@@ -24,8 +24,8 @@ $typographic-small-font-size: 14px;
 $typographic-base-line-height: 1.625;
 
 $typographic-base-font-color: $color-base;
-$typographic-link-p-font-color: $color-primary;
-$typographic-link-s-font-color: $color-secondary;
+$typographic-link-p-font-color: $color-base;
+$typographic-link-s-font-color: $color-primary;
 
 $typographic-leading: round(16 * ($typographic-root-font-size / 100) * $typographic-base-line-height);
 

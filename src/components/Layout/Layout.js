@@ -1,9 +1,11 @@
 // @flow
-import React from 'react';
+import React, { useContext } from 'react';
 import Helmet from 'react-helmet';
-// import { graphql } from 'gatsby';
 import type { Node as ReactNode } from 'react';
+
 import styles from './Layout.module.scss';
+import Switch from '../Switch';
+import ThemeContext from '../../context/theme-context';
 
 if (typeof window !== 'undefined') {
   // Make scroll behavior of internal links smooth
@@ -24,6 +26,8 @@ const Layout = ({
     process.env.GATSBY_FEATURED_IMAGES_FOLDER_URL
   }${featuredImage || 'about/hello.jpg'}`;
   const cardType = featuredImage ? 'summary_large_image' : 'summary';
+
+  const { isDark, toggleDarkMode } = useContext(ThemeContext);
   return (
     <div className={styles.layout}>
       <Helmet>
@@ -40,8 +44,8 @@ const Layout = ({
         <meta name='twitter:creator' content='@mcborreo' />
         <meta name='twitter:description' content={description} />
         <meta name='og:image' content={cardImage} />
-        {/* {getCardImage()} */}
       </Helmet>
+      <Switch value={isDark} toggle={toggleDarkMode} />
       {children}
     </div>
   );

@@ -1,5 +1,6 @@
-import React, { useRef, useEffect } from 'react';
+import React, { useRef, useEffect, useContext } from 'react';
 import styles from './Page.module.scss';
+import ThemeContext from '../../context/theme-context';
 
 type Props = {
   title?: string,
@@ -13,13 +14,17 @@ const Page = ({ title, children }: Props) => {
     pageRef.current.scrollIntoView();
   });
 
+  const { isDark } = useContext(ThemeContext);
+
   return (
     <div ref={pageRef} className={styles['page']}>
       <div className={styles['page__inner']}>
-        { title && <h1 className={styles['page__title']}>{title}</h1>}
-        <div className={styles['page__body']}>
-          {children}
-        </div>
+        {title && (
+          <h1 className={styles[`page__title${isDark ? '--dark' : ''}`]}>
+            {title}
+          </h1>
+        )}
+        <div className={styles['page__body']}>{children}</div>
       </div>
     </div>
   );

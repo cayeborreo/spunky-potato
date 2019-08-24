@@ -2,19 +2,20 @@
 @import '../../assets/scss/mixins';
 
 .page {
-  @include margin-bottom(2);
+  @include margin-bottom(0.25);
 
   &__inner {
     padding: 25px 20px;
   }
 
   &__title {
-    font-size: $typographic-base-font-size * 2.5;
-    text-shadow: -2px 2px $color-secondary;
-    font-weight: 600;
-    @include line-height(2);
-    @include margin-top(0);
-    @include margin-bottom(1.45);
+    @include page-title;
+    @include text-shadow($color-primary);
+
+    &--dark {
+      @include page-title;
+      @include text-shadow($color-black);
+    }
   }
 
   &__body {
@@ -24,12 +25,6 @@
 
     & a {
       text-decoration: underline;
-
-      &:hover,
-      &:focused {
-        color: $color-base;
-        background: $color-primary;
-      }
     }
   }
 }

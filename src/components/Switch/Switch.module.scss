@@ -1,0 +1,107 @@
+@import '../../assets/scss/variables';
+@import '../../assets/scss/mixins';
+
+$switch-background: $color-primary !default;
+$switch-border: 0.125rem solid transparent !default;
+$switch-background-active: #111 !default;
+$switch-radius: 5rem !default;
+$switch-paddle-background: white !default;
+$switch-paddle-background-active: $color-gray !default;
+$switch-paddle-offset: 0.125rem !default;
+$switch-paddle-transition: all 0.25s ease-out !default;
+$switch-focus: none !default;
+
+$switch-height: 1.5rem;
+$switch-width: $switch-height * 2.5;
+$paddle-height: $switch-height - ($switch-paddle-offset * 2);
+$paddle-width: $switch-height - ($switch-paddle-offset * 2);
+$paddle-active-offset: $switch-width - $paddle-width -
+  ($switch-paddle-offset * 1.5);
+
+.switch {
+  position: absolute;
+  top: 0;
+  right: 1rem;
+  z-index: 3;
+  @include margin-top(0.5);
+
+  & input[type='checkbox'] {
+    outline: 0;
+    user-select: none;
+    display: inline-block;
+    position: absolute;
+    opacity: 0;
+    border-radius: $switch-border;
+
+    + label {
+      position: relative;
+      display: inline-flex;
+      align-items: center;
+      justify-content: flex-end;
+      font-size: 1;
+      height: 1;
+      line-height: 1.1;
+      padding-left: $switch-width + 1;
+      padding-top: $switch-paddle-offset * 3;
+      cursor: pointer;
+
+      &::before,
+      &:before {
+        position: absolute;
+        display: block;
+        top: 0;
+        left: 0;
+        width: $switch-width;
+        height: $switch-height;
+        border: $switch-border;
+        border-radius: $switch-radius;
+        background: $switch-background;
+        line-height: 150%;
+        color: $switch-background;
+        content: 'day ☀️';
+      }
+
+      &::after,
+      &:after {
+        display: block;
+        position: absolute;
+        top: $switch-height - $paddle-height;
+        left: $switch-paddle-offset + 0.25;
+        width: $paddle-width;
+        height: $paddle-height;
+        transform: translate3d(0, 0, 0);
+        border-radius: 50%;
+        background: $switch-paddle-background;
+        transition: $switch-paddle-transition;
+        content: '';
+      }
+    }
+
+    &:focus {
+      + label {
+        &::before,
+        &:before,
+        &::after,
+        &:after {
+          outline: $switch-focus;
+        }
+      }
+    }
+
+    &:checked {
+      + label {
+        &::before,
+        &:before {
+          background: $switch-background-active;
+          color: $switch-background-active;
+          content: 'o🌜';
+        }
+        &::after {
+          left: $paddle-active-offset;
+          background: $switch-paddle-background-active;
+          content: '';
+        }
+      }
+    }
+  }
+}
