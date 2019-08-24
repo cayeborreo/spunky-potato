@@ -2,7 +2,7 @@
 @import '../../assets/scss/mixins';
 
 .pagination {
-  @include margin-top(2);
+  @include margin-top(2.5);
   display: flex;
 
   &__prev {
@@ -10,19 +10,19 @@
     text-align: left;
 
     &-link {
-      color: $color-primary;
+      color: $color-base;
       font-size: 26px;
       font-weight: bold;
       text-decoration: none !important;
 
-      &:hover,
-      &:focus {
-        color: $color-primary;
-      }
-
       &--disable {
         pointer-events: none;
         color: lighten($color-gray, 20%);
+
+        &--dark {
+          pointer-events: none;
+          color: darken($color-gray, 20%) !important;
+        }
       }
     }
   }
@@ -32,19 +32,23 @@
     text-align: right;
 
     &-link {
-      color: $color-primary;
+      color: $color-base;
       font-size: 26px;
       font-weight: bold;
       text-decoration: none !important;
 
-      &:hover,
       &:focus {
-        color: $color-primary;
+        color: $color-base;
       }
 
       &--disable {
         pointer-events: none;
         color: lighten($color-gray, 20%);
+
+        &--dark {
+          pointer-events: none;
+          color: darken($color-gray, 20%) !important;
+        }
       }
     }
   }

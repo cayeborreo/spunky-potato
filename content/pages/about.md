@@ -3,7 +3,7 @@ title: "About me"
 template: "page"
 ---
 
-<center><img src="/media/about/hello.jpg" alt="Hey there! 🌻" style="margin: 0 2.5rem 1.5rem 0"></center>
+![Hey there! 🌻](/media/about/hello.jpg)
 
 Hey there. I'm <mark>**Caye**</mark>, a registered pharmacist and web developer based in Manila. (View my LinkedIn profile [here](https://www.linkedin.com/in/mcborreo/))
 

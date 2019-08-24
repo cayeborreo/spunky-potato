@@ -31,9 +31,7 @@ export type Node = {
     title: string,
     featuredImage?: string
   },
-  wordCount: {
-    words: number
-  },
+  timeToRead: Number,
   html: string,
   id: string
 };

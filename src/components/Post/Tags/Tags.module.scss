@@ -15,20 +15,22 @@
       text-transform: lowercase;
 
       &-link {
-        display: inline-block;
-        padding: 0 5px;
-        background: $color-secondary;
-        text-decoration: none;
+        @include post-tag;
+        background: $color-primary;
         color: $color-base;
-
-        &:hover,
-        &:focus {
-          color: white;
-          background: $color-primary;
-        }
 
         &:before {
           content: '#';
+        }
+
+        &--dark {
+          @include post-tag;
+          color: $color-gray !important;
+          background-color: $color-black;
+
+          &:before {
+            content: '#';
+          }
         }
       }
     }

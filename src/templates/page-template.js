@@ -4,6 +4,7 @@ import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
 import Sidebar from '../components/Sidebar';
 import Scroll from '../components/Scroll';
+import Copyright from '../components/Sidebar/Copyright/Copyright';
 import Page from '../components/Page';
 import { useSiteMetadata } from '../hooks';
 import type { MarkdownRemark } from '../types';
@@ -15,7 +16,11 @@ type Props = {
 };
 
 const PageTemplate = ({ data }: Props) => {
-  const { title: siteTitle, subtitle: siteSubtitle } = useSiteMetadata();
+  const {
+    title: siteTitle,
+    subtitle: siteSubtitle,
+    copyright
+  } = useSiteMetadata();
   const { html: pageBody } = data.markdownRemark;
   const {
     title: pageTitle,
@@ -29,6 +34,8 @@ const PageTemplate = ({ data }: Props) => {
       <Page title={pageTitle}>
         <div dangerouslySetInnerHTML={{ __html: pageBody }} />
         <Scroll />
+
+        <Copyright copyright={copyright} />
       </Page>
     </Layout>
   );

@@ -1,8 +1,8 @@
 // @flow
-import React from 'react';
+import React, { useContext } from 'react';
 import Helmet from 'react-helmet';
-// import { graphql } from 'gatsby';
 import type { Node as ReactNode } from 'react';
+
 import styles from './Layout.module.scss';
 
 if (typeof window !== 'undefined') {
@@ -40,7 +40,6 @@ const Layout = ({
         <meta name='twitter:creator' content='@mcborreo' />
         <meta name='twitter:description' content={description} />
         <meta name='og:image' content={cardImage} />
-        {/* {getCardImage()} */}
       </Helmet>
       {children}
     </div>

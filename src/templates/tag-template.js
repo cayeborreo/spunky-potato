@@ -86,9 +86,7 @@ export const query = graphql`
             category
             description
           }
-          wordCount {
-            words
-          }
+          timeToRead
         }
       }
     }

@@ -11,23 +11,31 @@
 
   &__title {
     font-size: $typographic-base-font-size * 2;
-    text-shadow: -2px 2px $color-secondary;
     font-weight: 600;
+    @include text-shadow($color-primary);
     @include line-height(1.125);
     @include margin(0.5, 0, 0.5, 0);
+
+    // &--dark {
+    //   color: red;
+    // }
 
     &-link {
       color: $color-base;
 
+      &--dark {
+        @include text-shadow($color-black);
+      }
+
       &:hover,
       &:focus {
-        color: $color-base;
+        // color: $color-base;
       }
     }
   }
 
   &__subtitle {
-    color: $color-base;
+    // color: $color-base;
     @include line-height(1);
     @include margin-bottom(1);
   }
