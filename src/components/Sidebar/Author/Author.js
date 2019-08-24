@@ -41,10 +41,7 @@ const Author = ({ author }: Props) => {
       </Link>
 
       <h1 className={styles['author__title']}>
-        <Link
-          className={styles[`author__title-link${isDark ? '--dark' : ''}`]}
-          to='/'
-        >
+        <Link className='author__title-link' to='/'>
           &lt;rph />
         </Link>
       </h1>

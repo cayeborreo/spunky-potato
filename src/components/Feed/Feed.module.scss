@@ -18,20 +18,20 @@
         text-decoration: none !important;
       }
 
-      &-link {
-        color: $color-base;
-        text-decoration: none !important;
+      // &-link {
+      //   color: $color-base;
+      //   text-decoration: none !important;
 
-        &:hover,
-        &:focus {
-          border-bottom: 1px solid $color-base;
-        }
+      //   &:hover,
+      //   &:focus {
+      //     border-bottom: 1px solid $color-base;
+      //   }
 
-        &--dark {
-          @include text-shadow($color-black);
-          text-decoration: none !important;
-        }
-      }
+      //   &--dark {
+      //     @include text-shadow($color-black);
+      //     text-decoration: none !important;
+      //   }
+      // }
     }
 
     &-description {

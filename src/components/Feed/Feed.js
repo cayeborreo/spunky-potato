@@ -2,6 +2,7 @@
 import React, { useContext } from 'react';
 import moment from 'moment';
 import { Link } from 'gatsby';
+import classNames from 'classnames/bind';
 import type { Edges } from '../../types';
 import styles from './Feed.module.scss';
 import ThemeContext from '../../context/theme-context';
@@ -11,8 +12,18 @@ type Props = {
   isDark?: boolean
 };
 
+const cx = classNames.bind(styles);
+
 const Feed = ({ edges }: Props) => {
   const { isDark } = useContext(ThemeContext);
+  console.log('From Feed', isDark);
+  const categoryClassName = cx({
+    'feed__item-meta-category': !isDark,
+    'feed__item-meta-category--dark': isDark
+  });
+
+  console.log(categoryClassName);
+
   return (
     <div className={styles['feed']}>
       {edges.map((edge) => (
@@ -20,11 +31,7 @@ const Feed = ({ edges }: Props) => {
           <div className={styles['feed__item-meta']}>
             {!!edge.node.frontmatter.category && (
               <>
-                <span
-                  className={
-                    styles[`feed__item-meta-category${isDark ? '--dark' : ''}`]
-                  }
-                >
+                <span className={categoryClassName}>
                   <Link to={edge.node.fields.categorySlug}>
                     {edge.node.frontmatter.category}
                   </Link>
@@ -33,12 +40,7 @@ const Feed = ({ edges }: Props) => {
             )}
           </div>
           <h2 className={styles['feed__item-title']}>
-            <Link
-              className={
-                styles[`feed__item-title-link${isDark ? '--dark' : ''}`]
-              }
-              to={edge.node.fields.slug}
-            >
+            <Link className='feed__item-title-link' to={edge.node.fields.slug}>
               {edge.node.frontmatter.title}
             </Link>
           </h2>

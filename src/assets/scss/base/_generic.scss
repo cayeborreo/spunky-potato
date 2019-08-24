@@ -21,6 +21,20 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: $color-white;
 
+  .feed__item-title-link {
+    color: $color-base;
+    text-decoration: none !important;
+
+    &:hover,
+    &:focus {
+      border-bottom: 1px solid $color-base;
+    }
+  }
+
+  .author__title-link {
+    color: $color-base;
+  }
+
   &.dark-mode {
     background: $color-base;
     color: $color-white;
@@ -46,7 +60,18 @@ body {
       background-color: $color-black;
       color: $color-white;
     }
+
+    .feed__item-title-link {
+      @include text-shadow($color-black);
+      text-decoration: none !important;
+    }
+
+    .author__title-link {
+      @include text-shadow($color-black);
+    }
   }
+
+  
 }
 
 
@@ -200,3 +225,4 @@ figcaption {
   }
 
 }
+

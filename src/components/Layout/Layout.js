@@ -28,6 +28,7 @@ const Layout = ({
   const cardType = featuredImage ? 'summary_large_image' : 'summary';
 
   const { isDark, toggleDarkMode } = useContext(ThemeContext);
+  console.log('From Layout', isDark);
   return (
     <div className={styles.layout}>
       <Helmet>
@@ -45,7 +46,7 @@ const Layout = ({
         <meta name='twitter:description' content={description} />
         <meta name='og:image' content={cardImage} />
       </Helmet>
-      <Switch value={isDark} toggle={toggleDarkMode} />
+      <Switch value={isDark} toggle={toggleDarkMode} label='switchDarkMode' />
       {children}
     </div>
   );
