@@ -1,10 +1,10 @@
 import React, { createContext } from 'react';
 import useDarkMode from 'use-dark-mode';
-import Switch from '../components/Switch/Switch';
+import Switch from '../components/Switch';
 
 const ThemeContext = createContext(false);
 
-const ThemeProvider = ({ children, isDark, toggle }) => {
+const ThemeProvider = ({ children }) => {
   const darkMode = useDarkMode(false);
   return (
     <ThemeContext.Provider value={{ isDark: darkMode.value }}>

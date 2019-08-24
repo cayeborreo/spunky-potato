@@ -14,5 +14,6 @@ export const wrapRootElement = ({ element }) => (
 
 require('lazysizes');
 require('./src/assets/scss/init.scss');
+require('./src/context/Switch.scss');
 
 // exports.onClientEntry = () => {};
