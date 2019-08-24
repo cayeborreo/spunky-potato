@@ -1,9 +1,10 @@
 import React from 'react';
+import styles from './Switch.module.scss';
 
 const Switch = ({ value, toggle }) => (
-  <div className='switch'>
+  <div className={styles['switch']}>
     <input type='checkbox' id='switch' checked={value} onChange={toggle} />
-    <label className='switch__label' htmlFor='switch'></label>
+    <label className={styles['switch__label']} htmlFor='switch'></label>
   </div>
 );
 
