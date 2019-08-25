@@ -1,11 +1,10 @@
 // @flow
-import React, { useContext } from 'react';
+import React from 'react';
 import Author from './Author';
 import Menu from './Menu';
 import Contacts from './Contacts';
 import styles from './Sidebar.module.scss';
 import { useSiteMetadata } from '../../hooks';
-import ThemeContext from '../../context/theme-context';
 
 type Props = {
   isIndex?: boolean,
@@ -14,11 +13,10 @@ type Props = {
 
 const Sidebar = ({ isIndex }: Props) => {
   const { author, menu } = useSiteMetadata();
-  const { isDark } = useContext(ThemeContext);
 
   return (
     <div className={styles['sidebar']}>
-      <div className={styles[`sidebar__inner${isDark ? '--dark' : ''}`]}>
+      <div className='sidebar__inner'>
         <Author author={author} isIndex={isIndex} />
         <Menu menu={menu} />
 

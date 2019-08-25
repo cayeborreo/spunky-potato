@@ -4,7 +4,7 @@ import useDarkMode from 'use-dark-mode';
 const ThemeContext = createContext(false);
 
 const ThemeProvider = ({ children }) => {
-  const darkMode = useDarkMode(false);
+  const darkMode = useDarkMode();
   return (
     <ThemeContext.Provider
       value={{ isDark: darkMode.value, toggleDarkMode: darkMode.toggle }}

@@ -21,6 +21,74 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: $color-white;
 
+  .feed__item-title-link {
+    color: $color-base;
+    text-decoration: none !important;
+
+    &:hover,
+    &:focus {
+      border-bottom: 1px solid $color-base;
+    }
+  }
+
+  .author__title-link {
+    color: $color-base;
+  }
+
+  .feed__item-meta-category {
+    @include category;
+
+    & a {
+      @include category;
+      background-color: $color-primary;
+      text-decoration: none;
+    }
+  }
+
+  .page__title {
+    @include page-title;
+    @include text-shadow($color-primary);
+  }
+
+  .content__title {
+    @include content-title;
+    @include text-shadow($color-primary);
+  }
+
+  .tags__list-item-link {
+    @include post-tag;
+    background: $color-primary;
+    color: $color-base;
+
+    &:before {
+      content: '#';
+    }
+  }
+
+  .sidebar__inner {
+    position: relative;
+    padding: 25px 20px 0;
+
+    @include breakpoint-sm {
+      padding: 30px 20px 0;
+
+      &:after {
+        @include sidebar-divider;
+        background: $color-gray-border;
+        background: linear-gradient(
+          to bottom,
+          $color-gray-border 0%,
+          $color-gray-border 48%,
+          $color-white 100%
+        ) !important;
+      }
+    }
+
+    @include breakpoint-md {
+      padding: 40px;
+    }
+  }
+
   &.dark-mode {
     background: $color-base;
     color: $color-white;
@@ -46,8 +114,55 @@ body {
       background-color: $color-black;
       color: $color-white;
     }
+
+    .feed__item-title-link {
+      @include text-shadow($color-black);
+      text-decoration: none !important;
+    }
+
+    .author__title-link {
+      @include text-shadow($color-black);
+    }
+
+    .feed__item-meta-category {
+      & a {
+        background-color: $color-black !important;
+        color: $color-gray !important;
+      }
+    }
+
+    .page__title {
+      @include text-shadow($color-black);
+    }
+
+    .content__title {
+      color: $color-white !important;
+      @include text-shadow($color-black);
+    }
+
+    .tags__list-item-link {
+      color: $color-gray !important;
+      background-color: $color-black;
+    }
+
+    .sidebar__inner {
+      &:after {
+        background: $color-gray-border;
+        background: linear-gradient(
+          to bottom,
+          darken($color-gray, 20%) 0%,
+          darken($color-gray, 20%) 48%,
+          $color-base 100%
+        ) !important;
+      }
+    }
   }
+
+  
+
 }
+
+
 
 
 mark {

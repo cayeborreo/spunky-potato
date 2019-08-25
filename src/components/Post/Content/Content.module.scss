@@ -6,17 +6,6 @@
   padding: 0 15px;
   margin: 0 auto;
 
-  &__title {
-    @include content-title;
-    @include text-shadow($color-primary);
-
-    &--dark {
-      color: $color-white !important;
-      @include content-title;
-      @include text-shadow($color-black);
-    }
-  }
-
   &__date {
     max-width: $layout-post-width;
     font-style: italic;
@@ -71,20 +60,6 @@
 @include breakpoint-md {
   .content {
     padding: 0;
-
-    &__title {
-      font-size: $typographic-base-font-size * 3;
-      @include line-height(2.25);
-      @include margin-top(2.25);
-      @include margin-bottom(1.5);
-
-      &--dark {
-        font-size: $typographic-base-font-size * 3;
-        @include line-height(2.25);
-        @include margin-top(2.25);
-        @include margin-bottom(1.5);
-      }
-    }
 
     &__body {
       font-size: $typographic-base-font-size * 1.125;

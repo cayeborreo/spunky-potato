@@ -1,8 +1,7 @@
 // @flow
-import React, { useContext } from 'react';
+import React from 'react';
 import { graphql, Link, StaticQuery } from 'gatsby';
 import Img from 'gatsby-image';
-import ThemeContext from '../../../context/theme-context';
 import styles from './Author.module.scss';
 
 type Props = {
@@ -13,10 +12,8 @@ type Props = {
   }
 };
 
-const Author = ({ author }: Props) => {
-  const { isDark } = useContext(ThemeContext);
-  return (
-    <div className={styles['author']}>
+const Author = ({ author }: Props) => (
+    <div className={styles["author"]}>
       <Link to='/'>
         <StaticQuery
           query={graphql`
@@ -34,23 +31,19 @@ const Author = ({ author }: Props) => {
             <Img
               fixed={heroImg.childImageSharp.fixed}
               alt="Hi, I'm Caye."
-              className={styles['author__photo']}
+              className={styles["author__photo"]}
             />
           )}
         />
       </Link>
 
-      <h1 className={styles['author__title']}>
-        <Link
-          className={styles[`author__title-link${isDark ? '--dark' : ''}`]}
-          to='/'
-        >
+      <h1 className={styles["author__title"]}>
+        <Link className='author__title-link' to='/'>
           &lt;rph />
         </Link>
       </h1>
-      <p className={styles['author__subtitle']}>{author.bio}</p>
+      <p className={styles["author__subtitle"]}>{author.bio}</p>
     </div>
   );
-};
 
 export default Author;

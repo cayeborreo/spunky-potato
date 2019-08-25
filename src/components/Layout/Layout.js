@@ -45,7 +45,7 @@ const Layout = ({
         <meta name='twitter:description' content={description} />
         <meta name='og:image' content={cardImage} />
       </Helmet>
-      <Switch value={isDark} toggle={toggleDarkMode} />
+      <Switch value={isDark} toggle={toggleDarkMode} label='switchDarkMode' />
       {children}
     </div>
   );
