@@ -13,26 +13,6 @@
       display: inline-block;
       margin: 5px 0;
       text-transform: lowercase;
-
-      &-link {
-        @include post-tag;
-        background: $color-primary;
-        color: $color-base;
-
-        &:before {
-          content: '#';
-        }
-
-        &--dark {
-          @include post-tag;
-          color: $color-gray !important;
-          background-color: $color-black;
-
-          &:before {
-            content: '#';
-          }
-        }
-      }
     }
   }
 }

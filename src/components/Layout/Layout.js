@@ -28,7 +28,6 @@ const Layout = ({
   const cardType = featuredImage ? 'summary_large_image' : 'summary';
 
   const { isDark, toggleDarkMode } = useContext(ThemeContext);
-  console.log('From Layout', isDark);
   return (
     <div className={styles.layout}>
       <Helmet>

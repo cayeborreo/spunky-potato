@@ -8,16 +8,6 @@
     padding: 25px 20px;
   }
 
-  &__title {
-    @include page-title;
-    @include text-shadow($color-primary);
-
-    &--dark {
-      @include page-title;
-      @include text-shadow($color-black);
-    }
-  }
-
   &__body {
     font-size: $typographic-base-font-size;
     @include line-height(1);
