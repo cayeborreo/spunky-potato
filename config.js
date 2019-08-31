@@ -23,7 +23,7 @@ module.exports = {
     name: 'Caye',
     photo: '/author.jpg',
     bio:
-      'Hi, I\'m Caye. I\'m a pharmacist passionate about improving health care through tech.',
+      'Hi, I’m Caye. I’m a pharmacist passionate about improving health care through tech.',
     contacts: {
       email: 'mcborreo@gmail.com',
       twitter: 'mcborreo',

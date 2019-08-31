@@ -54,22 +54,26 @@ All very interesting topics, honestly. It's basically a starter pack for an over
 
 For those who haven't fully grasped yet what UHC is about, here's every UHC speaker's favorite cube I always see in talks:
 
-![The favorite UHC cube](/media/2019-08-11/uhc-cube-med.gif)
+![The favorite UHC cube](/media/2019-08-11/uhc-cube-med.jpg)
 
 <mark>**Basically, UHC's goal is for every Filipino to be financially protected when availing health services.**</mark> No one should die because they can't afford the health services they need to live. It's so easy to articulate but very hard to accomplish, because the approach here is multi-sectoral: health services, human resources, financing, information systems, education, and everything in between all need to be considered.
 
 Let's Pareto this out and just focus on 20% of the presented ideas that was 80% of the main takeaway I got from the event (mostly from [Doc Domingo](https://twitter.com/AlbertDomingo)'s and Doc Nikka Hao's talks, because the former laid out the challenges UHC is facing and the latter talked about devolution and an implementation situationer). Pain points are fun to talk about because it simply means solutions are yet to be crafted, so let's focus on those.
+<br />
+<br />
 
 ### 📌 Pain point #1: Whose roles is what?
 
 Two main stakeholders pop into mind when talking about UHC: the Department of Health, and PhilHealth. The roles and responsibilities of these two institutions have to be defined, as both have their own respective stream of funds and whatnot. There's also the local government units (LGUs) and the private sector to consider, as they will be the frontliners of the health services UHC is talking about. Who should follow who?
 
 [In a separate Twitter thread I follow](https://twitter.com/endocrine_witch/status/1160023883056992256) (thanks Doc Iris!), I soon learned that the roles will largely be defined whether we're talking about **population-based** (DOH) or **individual-based** (PhilHealth) services. These will be detailed further in the implementing rules and regulations.
+<br />
+<br />
 
 ### 📌 Pain point #2: How do we lower out-of-pocket payments?
 
 <figure class="float-right" style="width: 300px">
-	<img src="/media/2019-08-11/psa-2017-health-expenditures.png" alt="Health expenditures by financing scheme, 2017 (PSA)">
+	<img src="/media/2019-08-11/psa-2017-health-expenditures.jpg" alt="Health expenditures by financing scheme, 2017 (PSA)">
 	<figcaption style="margin-top: .25rem">Health expenditures by financing scheme, 2017 (PSA)</figcaption>
 </figure>
 
@@ -82,6 +86,8 @@ It's not enough. Juan and Juana is still paying for most of their health expense
 ![DOH medicines](/media/2019-08-11/doh-medicines.jpg)
 
 This pain point just highlights two pressing solutions: 1) <mark>Medicines should also be covered by UHC</mark>, and 2) <mark>a better inventory management system should be enforced</mark> to avoid wasting and underutilizing available medicines.
+<br />
+<br />
 
 ### 📌 Pain point #3: How do we improve health services delivery?
 

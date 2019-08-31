@@ -1,7 +1,6 @@
 // @flow
 import React from 'react';
 import { graphql } from 'gatsby';
-import useDarkMode from 'use-dark-mode';
 import Layout from '../components/Layout';
 import Sidebar from '../components/Sidebar';
 import Feed from '../components/Feed';
@@ -34,9 +33,8 @@ const IndexTemplate = ({ data, pageContext }: Props) => {
   const { edges } = data.allMarkdownRemark;
   const pageTitle =    currentPage > 0 ? `${siteTitle} - Page ${currentPage}` : siteTitle;
 
-  const darkMode = useDarkMode(false);
   return (
-    <Layout title={pageTitle} description={siteSubtitle} darkMode={darkMode}>
+    <Layout title={pageTitle} description={siteSubtitle}>
       <Sidebar isIndex />
       <Page>
         <Feed edges={edges} />
