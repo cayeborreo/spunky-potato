@@ -56,7 +56,7 @@ module.exports = {
             options: {
               maxWidth: 650,
               quality: 60,
-              withWebp: true,
+              // withWebp: true,
               ignoreFileExtensions: [],
               loading: 'lazy'
             }
