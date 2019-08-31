@@ -55,7 +55,7 @@ module.exports = {
             resolve: 'gatsby-remark-images',
             options: {
               maxWidth: 650,
-              quality: 80,
+              quality: 60,
               withWebp: true,
               ignoreFileExtensions: [],
               loading: 'lazy'
@@ -122,9 +122,7 @@ module.exports = {
                         draft
                         description
                       }
-                      wordCount {
-                        words
-                      }
+                      timeToRead
                     }
                   }
                 }

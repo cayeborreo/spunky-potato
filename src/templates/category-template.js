@@ -40,7 +40,7 @@ const CategoryTemplate = ({ data, pageContext }: Props) => {
     <Layout title={pageTitle} description={siteSubtitle}>
       <Sidebar />
       <Page title={`📌 ${category}`}>
-        <Feed edges={edges} />
+        <Feed edges={edges} isCategoryView />
         <Pagination
           prevPagePath={nextPagePath}
           nextPagePath={prevPagePath}

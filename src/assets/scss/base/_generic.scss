@@ -157,9 +157,6 @@ body {
       }
     }
   }
-
-  
-
 }
 
 
@@ -313,5 +310,8 @@ figcaption {
   .float-left {
     float: left;
   }
+}
 
+a {
+  transition-duration: .3s
 }
