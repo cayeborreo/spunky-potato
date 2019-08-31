@@ -39,7 +39,7 @@ Which begs the question: If these candidates had such a strong online presence i
 
 ---
 
-**With the advent of social media, "echo chambers"** has suddenly become a buzzword. _Like attracts like_ is understood as a core principle in many tech giants' algorithms, as they dictate your feed by showing you more of the things you interact with—because that's where the money is. (One buying hack out there is if you want to purchase something, just Google it multiple times and wait for the related ads and discounts to pop up during your normal web browsing sessions.)
+**With the advent of social media, _echo chambers_** has suddenly become a buzzword. "Like attracts like" is understood as a core principle in many tech giants' algorithms, as they dictate your feed by showing you more of the things you interact with—because that's where the money is. (One buying hack out there is if you want to purchase something, just Google it multiple times and wait for the related ads and discounts to pop up during your normal web browsing sessions.)
 
 So yes, imagine you attracting all the things you like forming a bubble around you, leaving no space for opposing viewpoints or things you are honestly indifferent about. You might not even know these viewpoints exist, because the bubble has formed a filter around you. Everything within it is mostly varied forms of validation and things you've liked before.
 
@@ -130,7 +130,7 @@ If there's a lesson to be learned from #Eleksyon2019, it's that echo chambers = 
 
 So next time you post that strongly worded tweet you've been drafting in the hopes of swaying people, take a step back first. If you decide to release it out to the world and it gains traction, it means it hasn't reached the opposing side yet. And once it has and meets with legit non-trolling criticism, best to hear them out before crafting your arguments to avoid a non-productive discussion.
 
-If it's another goddamn _"[sco pa tu manaa](https://www.wheninmanila.com/what-does-sco-pa-tu-manaa-mean-and-why-is-it-all-over-twitter/)"_ tweet though, skip it. ◼️
+If it's another goddamn _“[sco pa tu manaa](https://www.wheninmanila.com/what-does-sco-pa-tu-manaa-mean-and-why-is-it-all-over-twitter/)”_ tweet though, skip it. ◼️
 
 ---
 
