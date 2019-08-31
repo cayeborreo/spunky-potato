@@ -13,17 +13,17 @@ tags:
   - "psychology"
   - "social media"
   - "thinkpiece"
-description: "No one’s budging—because we use the same tone for different audiences."
+description: "Getting people to change their minds isn’t as easy as 1-2-Tweet."
 featuredImage: "2019/echo-chamber.jpg"
 ---
 
-![No one’s changing their tone. No one’s budging.](/media/2019-08-30/echo-chamber.jpg)
+![Getting people to change their minds isn’t as easy as 1-2-Tweet.](/media/2019-08-30/echo-chamber.jpg)
 
-<figcaption>Original photo credit: <a href="https://unsplash.com/@hilltopchill?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Tom Hill (Unsplash)</a></figcaption>
+<figcaption>Original photo credit: <a href="https://unsplash.com/@hilltopchill?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noreferrer">Tom Hill (Unsplash)</a></figcaption>
 
 **On May 14, a day after the Philippines' midterm elections,** Twitter Philippines released a [thread](https://twitter.com/TwitterPH/status/1128093805251403777) on the most talked about topics and senate candidates during the election season.
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Candidates have also been actively using Twitter to connect with the general public on a more personal level &amp; to express their stand on issues and advocacies. Among the candidates, <a href="https://twitter.com/SamiraGutoc?ref_src=twsrc%5Etfw">@SamiraGutoc</a> emerged as the most talked about on Twitter during the election season. <a href="https://twitter.com/hashtag/Eleksyon2019?src=hash&amp;ref_src=twsrc%5Etfw">#Eleksyon2019</a> <a href="https://t.co/PByPoO5XHq">pic.twitter.com/PByPoO5XHq</a></p>&mdash; Twitter Philippines (@TwitterPH) <a href="https://twitter.com/TwitterPH/status/1128244846794141697?ref_src=twsrc%5Etfw">May 14, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Candidates have also been actively using Twitter to connect with the general public on a more personal level &amp; to express their stand on issues and advocacies. Among the candidates, <a href="https://twitter.com/SamiraGutoc?ref_src=twsrc%5Etfw" rel="noreferrer" target="_blank">@SamiraGutoc</a> emerged as the most talked about on Twitter during the election season. <a href="https://twitter.com/hashtag/Eleksyon2019?src=hash&amp;ref_src=twsrc%5Etfw">#Eleksyon2019</a> <a href="https://t.co/PByPoO5XHq">pic.twitter.com/PByPoO5XHq</a></p>&mdash; Twitter Philippines (@TwitterPH) <a href="https://twitter.com/TwitterPH/status/1128244846794141697?ref_src=twsrc%5Etfw" rel="noreferrer" target="_blank">May 14, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Four out of the five Most Tweeted about candidates were from the Liberal Party's #OtsoDiretso slate, and one was from Makabayan. All five had mostly progressive stances, and were often lauded by Twitter's Filipino millennials.
 
@@ -47,7 +47,7 @@ On a much larger scale, the _like attracts like_ principle still applies. Imagin
 
 ![Visualizing it?](/media/2019-08-30/people-bubbles.png)
 
-<figcaption>Photo credit: <a href="https://www.researchgate.net/figure/Social-media-platforms-can-produce-echo-chambers-which-lead-to-polarization-and-can_fig4_322971747" target="_blank">ResearchGate</a></figcaption>
+<figcaption>Photo credit: <a href="https://www.researchgate.net/figure/Social-media-platforms-can-produce-echo-chambers-which-lead-to-polarization-and-can_fig4_322971747" rel="noreferrer" target="_blank">ResearchGate</a></figcaption>
 
 These two different sides birth their own chambers, and opinions wafting through their spaces normally meet agreement and get echoed as a result of thriving in a homogenous population.
 
@@ -77,7 +77,7 @@ And whatever's contradictory, we instantly shirk away from. Dealing with cogniti
 
 ![Echo chambers, explained.](/media/2019-08-30/echo-chamber2.png)
 
-<figcaption>Photo credit: <a href="http://wpmu.mah.se/nmict182group3/2018/10/16/echo-chambers-and-development-communications/" target="_blank">Quartet4Development</a></figcaption>
+<figcaption>Photo credit: <a href="http://wpmu.mah.se/nmict182group3/2018/10/16/echo-chambers-and-development-communications/" rel="noreferrer" target="_blank">Quartet4Development</a></figcaption>
 
 ---
 
@@ -87,7 +87,7 @@ So if we're battling polarized environments and natural biases that are hard to 
 
 ### 1. Get your audience's pulse. Frame your intent based on their values.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/58jHhNzUHm4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/58jHhNzUHm4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title="YouTube: How can you change someone’s mind (TED-Ed)" allowfullscreen></iframe>
 
 <figure>
   <blockquote>
@@ -108,7 +108,7 @@ Build a solid common ground right from the beginning and invest first on good ra
 
 [One of my favorite podcasts](https://www.npr.org/2019/07/18/743195213/facts-arent-enough-the-psychology-of-false-beliefs) tackled how facts are not enough to change people's minds, because the more powerful factor here is... \*drumroll\* our _emotions_. Hard facts, data visualized in charts and graphs are nice and all, but if they were not able to tell a story—if they did not manage to elicit an emotion—then those numbers fail in triggering action points from the audience.
 
-<iframe width="560" height="150" src="https://www.npr.org/player/embed/743195213/743559544" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="150" src="https://www.npr.org/player/embed/743195213/743559544" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title="NPR: Facts Aren’t Enough: The Psychology of False Beliefs (Hidden Brain podcast)" allowfullscreen></iframe>
 
 This podcast also explained when fear or hope becomes an effective voice. The gist of it is that **fear** works when people are "stressed out" or agitated over a certain issue, and you want to reinforce _inaction_. On the other hand, **hope** is a great motivator for _action_.
 

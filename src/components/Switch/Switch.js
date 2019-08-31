@@ -9,6 +9,7 @@ const Switch = ({ value, toggle, label }) => (
       checked={value}
       onChange={toggle}
       label={label}
+      name={label}
     />
     <label className={styles['switch__label']} htmlFor='switch'></label>
   </div>
