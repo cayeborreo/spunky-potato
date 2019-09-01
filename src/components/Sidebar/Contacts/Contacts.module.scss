@@ -41,3 +41,8 @@
     }
   }
 }
+
+.share-buttons {
+  @include margin-top(2);
+  @include margin-bottom(0.5);
+}
