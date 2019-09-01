@@ -46,10 +46,7 @@ const ShareButtons = ({ slug, title }) => {
 
           <li className={styles['contacts__list-item']}>
             <a
-              className={classNames(
-                styles['contacts__list-item-link'],
-                'twitter-share-button'
-              )}
+              className={classNames(styles['contacts__list-item-link'])}
               href={`https://twitter.com/intent/tweet?text=${encodedTweet}%20${encodedTwitterURL}`}
               rel='noopener noreferrer'
               target='_blank'
