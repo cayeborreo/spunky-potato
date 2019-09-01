@@ -5,11 +5,12 @@ import Author from './Author';
 import Comments from './Comments';
 import Content from './Content';
 // import Meta from './Meta';
+import ShareButtons from './ShareButtons/ShareButtons';
 import Tags from './Tags';
 import Scroll from '../Scroll';
 // import Copyright from '../Sidebar/Copyright/Copyright';
 import styles from './Post.module.scss';
-import { useSiteMetadata } from '../../hooks';
+// import { useSiteMetadata } from '../../hooks';
 import type { Node } from '../../types';
 
 type Props = {
@@ -42,6 +43,7 @@ const Post = ({ post }: Props) => {
         >
           Tweet
         </a> */}
+        <ShareButtons slug={slug} title={title} />
         <Scroll />
         <Author />
       </div>
