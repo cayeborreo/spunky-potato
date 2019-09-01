@@ -6,10 +6,16 @@ import Icon from '../../Icon';
 
 const ShareButtons = ({ slug, title }) => {
   const url = `https://cayeborreo.com${slug}`;
-  const encodedURL = encodeURI(url);
 
+  // Twitter stuff
+  const twitterURL = `${url}?utm_source=postTwitterShareButton&utm_medium=tweet&utm_campaign=audienceTweet`;
+  const encodedTwitterURL = encodeURI(twitterURL);
   const tweetContent = `${title} by @mcborreo`;
   const encodedTweet = encodeURI(tweetContent);
+
+  // FB stuff
+  const fbURL = `${url}?utm_source=postFBShareButton&utm_medium=fbPost&utm_campaign=audienceFbPost`;
+  const encodedFbURL = encodeURI(fbURL);
 
   return (
     <div className={styles['share-buttons']}>
@@ -29,7 +35,7 @@ const ShareButtons = ({ slug, title }) => {
             >
               <a
                 className={styles['contacts__list-item-link']}
-                href={`https://www.facebook.com/sharer/sharer.php?u=${encodedURL}&amp;src=sdkpreparse`}
+                href={`https://www.facebook.com/sharer/sharer.php?u=${encodedFbURL}&amp;src=sdkpreparse`}
                 rel='noopener noreferrer'
                 target='_blank'
               >
@@ -44,7 +50,7 @@ const ShareButtons = ({ slug, title }) => {
                 styles['contacts__list-item-link'],
                 'twitter-share-button'
               )}
-              href={`https://twitter.com/intent/tweet?text=${encodedTweet}%20${encodedURL}`}
+              href={`https://twitter.com/intent/tweet?text=${encodedTweet}%20${encodedTwitterURL}`}
               rel='noopener noreferrer'
               target='_blank'
             >
