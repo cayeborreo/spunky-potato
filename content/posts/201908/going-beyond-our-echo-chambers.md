@@ -3,7 +3,7 @@ title: Going Beyond Our Echo Chambers
 date: "2019-08-30T13:26:37.121Z"
 template: "post"
 draft: false
-category: "Food for Thought"
+category: "Thoughts Provoked"
 tags:
   - "advocacy"
   - "communication"
@@ -25,11 +25,11 @@ featuredImage: "2019/echo-chamber.jpg"
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Candidates have also been actively using Twitter to connect with the general public on a more personal level &amp; to express their stand on issues and advocacies. Among the candidates, <a href="https://twitter.com/SamiraGutoc?ref_src=twsrc%5Etfw" rel="noreferrer" target="_blank">@SamiraGutoc</a> emerged as the most talked about on Twitter during the election season. <a href="https://twitter.com/hashtag/Eleksyon2019?src=hash&amp;ref_src=twsrc%5Etfw">#Eleksyon2019</a> <a href="https://t.co/PByPoO5XHq">pic.twitter.com/PByPoO5XHq</a></p>&mdash; Twitter Philippines (@TwitterPH) <a href="https://twitter.com/TwitterPH/status/1128244846794141697?ref_src=twsrc%5Etfw" rel="noreferrer" target="_blank">May 14, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-Four out of the five Most Tweeted about candidates were from the Liberal Party's #OtsoDiretso slate, and one was from Makabayan. All five had mostly progressive stances, and were often lauded by Twitter's Filipino millennials.
+Four out of the five Most Tweeted about candidates were from the Liberal Party's #OtsoDiretso slate, and one was from Makabayan. No day went by without a trending tweet lauding their progressive stances.
 
 ![The top 5 talked about senatorial candidates for #Eleksyon2019.](media/2019-08-30/top-5.jpeg)
 
-It all looked so promising. Considering they've bagged the "youth vote" and they've got passionate advocates campaigning for them, you'd like to believe that their names have at least trickled down to the average Filipino household.
+Considering they've bagged the "youth vote" and got passionate advocates campaigning for them, you'd like to believe that their names have at least trickled down to the average Filipino household.
 
 Well, we all know how this ends.
 
@@ -39,17 +39,19 @@ Which begs the question: If these candidates had such a strong online presence i
 
 ---
 
-**With the advent of social media, _echo chambers_** has suddenly become a buzzword. "Like attracts like" is understood as a core principle in many tech giants' algorithms, as they dictate your feed by showing you more of the things you interact with—because that's where the money is. (One buying hack out there is if you want to purchase something, just Google it multiple times and wait for the related ads and discounts to pop up during your normal web browsing sessions.)
+**With the advent of social media, _echo chambers_** has suddenly become a buzzword. _Like attracts like_ is now a core principle for algorithms, as tech giants begin to dictate your feed by showing you more things similar to those you previously interacted with—because that's where the money is. (One buying hack out there is if you want to purchase something, just Google it multiple times and wait for the related ads and discounts to pop up during your normal browsing sessions.)
 
-So yes, imagine you attracting all the things you like forming a bubble around you, leaving no space for opposing viewpoints or things you are honestly indifferent about. You might not even know these viewpoints exist, because the bubble has formed a filter around you. Everything within it is mostly varied forms of validation and things you've liked before.
+So yes, imagine all the things you like forming a bubble around you, leaving no space for opposing viewpoints or things you are honestly indifferent about. This bubble effectively forms a filter around you, where everything that goes through it is mostly varied forms of things you've liked before. The algorithm won’t dare, say, put an apple or a jackfruit in a person’s mostly-citruses feed.
 
 On a much larger scale, the _like attracts like_ principle still applies. Imagine a horde of like-minded people-bubbles gathered on one side of the spectrum, with another horde at the other.
 
-![Visualizing it?](/media/2019-08-30/people-bubbles.png)
+Done imagining it? That’s basically polarization.
+
+![Visualizing it? This is called polarization.](/media/2019-08-30/people-bubbles.png)
 
 <figcaption>Photo credit: <a href="https://www.researchgate.net/figure/Social-media-platforms-can-produce-echo-chambers-which-lead-to-polarization-and-can_fig4_322971747" rel="noreferrer" target="_blank">ResearchGate</a></figcaption>
 
-These two different sides birth their own chambers, and opinions wafting through their spaces normally meet agreement and get echoed as a result of thriving in a homogenous population.
+The two different sides birth their own chambers, and opinions wafting through their spaces normally meet with agreement and get echoed as a result of thriving in a homogenous population.
 
 <figure>
 <blockquote>
@@ -63,7 +65,7 @@ We can use echo chambers to our advantage. <mark>The problem, however, lies in t
 
 ---
 
-**Humans are _so_ great at self-preservation.** It is our nature to survive in any environment we're placed in; we'll practically resort to any coping mechanism to protect our physical and mental well-being.
+**Humans are _so_ great at self-preservation.** It is our nature to survive in any environment we're placed in; we'll practically resort to any coping mechanism to protect our well-being.
 
 So, okay. Let's say we've managed to go beyond our little spheres of influence and tried reaching out to people farther from our usual zones. We start to engage.
 
@@ -73,7 +75,9 @@ One common cognitive coping mechanism we humans have is **<mark>confirmation bia
 
 Horoscopes are a perfect example of the affirmation part. When they seem to be "accurate", it's because we tailor-fit whatever we've read to confirm something that we're already experiencing. In short, we reaffirm easily by making it about us.
 
-And whatever's contradictory, we instantly shirk away from. Dealing with cognitive dissonance all the time can greatly disturb our mental health, so confirmation bias saves us from that mess. But _too_ effectively, it also draws us away from confronting stale core beliefs. This is quite unfortunate because once we overcome the initial stress of meeting with an opposing viewpoint, productive discussions and opportunities for growth and cultivating empathy follow.
+And when something contradictory presents itself, our brain instantly says _wrong!_ to protect our core beliefs. To be fair, this isn’t always a bad thing because dealing with cognitive dissonance all the time can greatly disturb our mental health, and confirmation bias saves us from that mess.
+
+But _too_ effectively, it also draws us away from confronting false beliefs (see: flat-earthers, anti-vaxxers) or beliefs that have gone stale, as our values change over time. This is quite unfortunate because once we overcome the initial stress of meeting with a contradictory viewpoint, productive discussions and opportunities for growth and cultivating empathy follow.
 
 ![Echo chambers, explained.](/media/2019-08-30/echo-chamber2.png)
 
@@ -100,13 +104,15 @@ So if we're battling polarized environments and natural biases that are hard to 
 
 People often forget this when engaging: **Not everyone has the same values.** Engaging a different audience with the same tone will almost always cause flame wars—_and we should expect that_, because it means everyone's confirmation biases are at work. Totally normal. What's not normal is fanning the flames by stubbornly using the same arguments and believe we're "educating" and getting some converts through this process.
 
-Build a solid common ground right from the beginning and invest first on good rapport. Present your arguments in ways that would make them care. What are they willing to listen to? What's the craziest idea they can tolerate? How will our viewpoint align to their values, and how will it eventually benefit them?
+Situations like this also beg the question _should this discussion be online or is it best carried out offline?_ because social media is not the best avenue for certain kinds of engagements.
+
+Online or offline, it’s best to build solid common ground right from the beginning and invest on good rapport. Present arguments in ways that would make people care. What are they willing to listen to? What's the craziest idea they can tolerate? How will this viewpoint align to their values, and how will it eventually benefit them?
 <br />
 <br />
 
 ### 2. Facts are not enough. Take emotions into account.
 
-[One of my favorite podcasts](https://www.npr.org/2019/07/18/743195213/facts-arent-enough-the-psychology-of-false-beliefs) tackled how facts are not enough to change people's minds, because the more powerful factor here is... \*drumroll\* our _emotions_. Hard facts, data visualized in charts and graphs are nice and all, but if they were not able to tell a story—if they did not manage to elicit an emotion—then those numbers fail in triggering action points from the audience.
+[One of my favorite podcasts](https://www.npr.org/2019/07/18/743195213/facts-arent-enough-the-psychology-of-false-beliefs) tackled how facts are not enough to change people's minds, because the more powerful factor here is... \*drumroll\* our _emotions_. Hard facts, data visualized in charts and graphs are nice and all, but if they were not able to tell a story—if they were not able to elicit an emotion—then those numbers will fail in inspiring the audience to act.
 
 <iframe width="560" height="150" src="https://www.npr.org/player/embed/743195213/743559544" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title="NPR: Facts Aren’t Enough: The Psychology of False Beliefs (Hidden Brain podcast)" allowfullscreen></iframe>
 
@@ -118,7 +124,7 @@ This can be seen in reality as we examine which of the two feeds various campaig
 
 ### 3. And lastly... consider that you may be wrong.
 
-As much as we'd like to believe we're right all the time, sometimes it might be us who have stale core beliefs (or at least part of them). If we're asking other people to re-evaluate their stances, we should be just as willing to take our own advice first.
+As much as we'd like to believe we're right all the time, sometimes it might be us who have false or stale beliefs (or perhaps parts of them). If we're asking other people to re-evaluate their stances, we should be just as willing to take our own advice first.
 
 Take everything from a logical perspective, and see if the arguments supporting the belief in question are still in line with your values. Maybe it's a washed-down stance people in your echo chamber have mindlessly parroted back since time immemorial, and there are actually chinks in the armor. It's these weak points that are most worthy of attention, so inspect them thoroughly.
 
