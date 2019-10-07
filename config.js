@@ -7,7 +7,7 @@ module.exports = {
   subtitle: 'The Pharmacist Who Codes',
   copyright: '© 2019 · Caye Borreo · All rights reserved',
   disqusShortname: 'cayeborreo',
-  postsPerPage: 7,
+  postsPerPage: 4,
   googleAnalyticsId: 'UA-144194562-1',
   menu: [
     {
